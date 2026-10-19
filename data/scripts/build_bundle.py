@@ -899,6 +899,17 @@ def main() -> None:
          "geometry": {"type": "LineString", "coordinates": v["coords"]}} for k, v in sorted(segments.items())]}
     (BUILD / "segments.geojson").write_text(json.dumps(seg_fc, separators=(",", ":")), encoding="utf-8")
 
+    # Light copy for the app's network map: ~30 m simplification, 5 decimals
+    from shapely.geometry import LineString
+    network = []
+    for (a, b), v in sorted(segments.items()):
+        coords = v["coords"]
+        if len(coords) > 2:
+            coords = list(LineString(coords).simplify(0.0003, preserve_topology=False).coords)
+        network.append({"a": a, "b": b, "km": v["km"], "line": [[round(x, 5), round(y, 5)] for x, y in coords]})
+    (BUILD / "network.json").write_text(json.dumps({"version": None, "segments": network}, separators=(",", ":")),
+                                        encoding="utf-8")
+
     unmatched = [k for k, m in matches.items() if m.lat is None]
     conflicts = [k for k, m in matches.items() if "conflict" in m.method]
     report["summary"] = {
@@ -912,9 +923,14 @@ def main() -> None:
                         for k, m in sorted(matches.items()) if m.method != "name" or m.score < 95}
     (BUILD / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    net = json.loads((BUILD / "network.json").read_text(encoding="utf-8"))
+    net["version"] = bundle["version"]
+    (BUILD / "network.json").write_text(json.dumps(net, separators=(",", ":")), encoding="utf-8")
+
     if APP_BUNDLE.parent.parent.exists():
         APP_BUNDLE.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(BUILD / "bundle.json", APP_BUNDLE)
+        shutil.copyfile(BUILD / "network.json", APP_BUNDLE.parent / "network.json")
 
     s = report["summary"]
     print(f"bundle {bundle['version']}: {s['trains']} trains ({s['routed_trains']} routed), "
