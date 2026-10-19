@@ -35,7 +35,7 @@ more parallel agents; keep it to about 5 at once because of usage limits).
 - [ ] Mobile: development-build setup for MapLibre (`expo-dev-client`, `@maplibre/maplibre-react-native` config plugin, `eas.json` profiles) so the map can switch from the Skia drawing to real vector tiles once the owner has an Expo account. Style: OpenFreeMap tiles for development, indigo light/dark styles from the design system.
 - [ ] Mobile: GPS sharing spike screen (expo-location + task manager, Android foreground service, batching, offline queue) for the owner's real-train test (plan section 9, phase 0).
 - [ ] Mobile: i18n check (every string in `en.json`), accessibility pass (labels, 48 dp targets, contrast), reduce-motion pass.
-- [ ] Data: over-the-air bundle updates (manifest with version + hash, app downloads newer bundle).
+- [ ] Data: over-the-air bundle updates. **Pipeline part done**: `data/build/manifest.json` (schema, version, sha256 + size per file), checked by the validator. Remaining: API serves manifest and files (backend), app checks the manifest at start, downloads, verifies sha256, swaps atomically (mobile).
 - [x] Docs: privacy policy draft (`docs/legal/privacy-policy.md`) and Play listing (`docs/store/play-listing.md`); [TBD] items need the domain, contact and hosting details.
 
 ## Waiting on the owner
