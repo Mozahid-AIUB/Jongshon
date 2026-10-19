@@ -1,0 +1,97 @@
+{
+  "fetched_at": "2026-10-19T19:04:19.619Z",
+  "journey_date": "2026-10-22",
+  "data": {
+    "days": [
+      "Fri",
+      "Sat",
+      "Sun",
+      "Tue",
+      "Wed",
+      "Thu"
+    ],
+    "routes": [
+      {
+        "city": "Chattogram",
+        "departure_time": "05:50 am BST",
+        "halt": null,
+        "duration": null,
+        "arrival_time": null
+      },
+      {
+        "city": "Sholoshohor",
+        "arrival_time": "06:00 am BST",
+        "departure_time": "06:02 am BST",
+        "halt": "02",
+        "duration": "00:10"
+      },
+      {
+        "city": "Janali_Hat",
+        "arrival_time": "06:14 am BST",
+        "departure_time": "06:16 am BST",
+        "halt": "02",
+        "duration": "00:12"
+      },
+      {
+        "city": "Patiya",
+        "arrival_time": "06:40 am BST",
+        "departure_time": "06:42 am BST",
+        "halt": "02",
+        "duration": "00:24"
+      },
+      {
+        "city": "Dohazari",
+        "arrival_time": "07:04 am BST",
+        "departure_time": "07:06 am BST",
+        "halt": "02",
+        "duration": "00:22"
+      },
+      {
+        "city": "Satkania",
+        "arrival_time": "07:17 am BST",
+        "departure_time": "07:19 am BST",
+        "halt": "02",
+        "duration": "00:11"
+      },
+      {
+        "city": "HARBANG",
+        "arrival_time": "07:56 am BST",
+        "halt": "---",
+        "duration": "00:37"
+      },
+      {
+        "city": "Chakaria",
+        "arrival_time": "08:10 am BST",
+        "departure_time": "08:12 am BST",
+        "halt": "02",
+        "duration": "---"
+      },
+      {
+        "city": "Dulahazara",
+        "arrival_time": "08:33 am BST",
+        "departure_time": "08:35 am BST",
+        "halt": "02",
+        "duration": "00:21"
+      },
+      {
+        "city": "Ramu",
+        "arrival_time": "09:06 am BST",
+        "departure_time": "09:08 am BST",
+        "halt": "02",
+        "duration": "00:31"
+      },
+      {
+        "city": "Cox's Bazar",
+        "arrival_time": "09:25 am BST",
+        "halt": null,
+        "duration": "00:17",
+        "departure_time": null
+      }
+    ],
+    "total_duration": "03:35",
+    "train_name": "SHAIKAT EXPRESS (821)"
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}

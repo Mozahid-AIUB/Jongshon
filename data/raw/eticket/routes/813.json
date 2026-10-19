@@ -1,0 +1,42 @@
+{
+  "fetched_at": "2026-10-19T19:04:13.248Z",
+  "journey_date": "2026-10-22",
+  "data": {
+    "days": [
+      "Fri",
+      "Sat",
+      "Sun",
+      "Mon",
+      "Wed",
+      "Thu"
+    ],
+    "routes": [
+      {
+        "city": "Cox's Bazar",
+        "departure_time": "12:30 pm BST",
+        "halt": null,
+        "duration": null,
+        "arrival_time": null
+      },
+      {
+        "city": "Chattogram",
+        "departure_time": "04:00 pm BST",
+        "arrival_time": "03:40 pm BST",
+        "halt": "20",
+        "duration": "03:10"
+      },
+      {
+        "city": "Dhaka",
+        "arrival_time": "09:00 pm BST",
+        "halt": null,
+        "duration": "05:00",
+        "departure_time": null
+      }
+    ],
+    "total_duration": "08:30",
+    "train_name": "COXS BAZAR EXPRESS (813)"
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}

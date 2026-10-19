@@ -1,0 +1,98 @@
+{
+  "fetched_at": "2026-10-19T19:05:33.478Z",
+  "journey_date": "2026-10-22",
+  "data": {
+    "days": [
+      "Fri",
+      "Sat",
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed"
+    ],
+    "routes": [
+      {
+        "city": "Dhalarchar",
+        "departure_time": "06:30 am BST",
+        "halt": null,
+        "duration": null,
+        "arrival_time": null
+      },
+      {
+        "city": "Pabna",
+        "departure_time": "08:04 am BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Ishwardi Bypass",
+        "arrival_time": "09:00 am BST",
+        "departure_time": "09:03 am BST",
+        "halt": "03",
+        "duration": "00:56"
+      },
+      {
+        "city": "Azim Nagar",
+        "departure_time": "09:15 am BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Abdulpur",
+        "departure_time": "09:27 am BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Arani",
+        "arrival_time": "09:38 am BST",
+        "halt": "---",
+        "duration": "00:11"
+      },
+      {
+        "city": "Sardah_Road",
+        "arrival_time": "09:56 am BST",
+        "departure_time": "09:58 am BST",
+        "halt": "02",
+        "duration": "---"
+      },
+      {
+        "city": "Rajshahi",
+        "arrival_time": "10:25 am BST",
+        "departure_time": "10:35 am BST",
+        "halt": "10",
+        "duration": "00:27"
+      },
+      {
+        "city": "Kakonhat",
+        "arrival_time": "11:03 am BST",
+        "halt": "---",
+        "duration": "00:28"
+      },
+      {
+        "city": "Lolitnagar",
+        "arrival_time": "11:13 am BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Amnura_Bypass",
+        "arrival_time": "11:24 am BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Chapainawabganj",
+        "arrival_time": "11:50 am BST",
+        "halt": null,
+        "duration": "---",
+        "departure_time": null
+      }
+    ],
+    "total_duration": "05:20",
+    "train_name": "DHALARCHAR EXPRESS (779)"
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}

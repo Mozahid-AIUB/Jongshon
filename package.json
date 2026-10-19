@@ -1,0 +1,24 @@
+{
+  "name": "jongshon",
+  "private": true,
+  "description": "Jongshon: live train tracking for Bangladesh",
+  "packageManager": "pnpm@10.18.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "data:fetch": "node data/scripts/fetch-eticket.ts",
+    "data:osm": "data/.venv/Scripts/python data/scripts/extract_osm.py",
+    "data:build": "data/.venv/Scripts/python data/scripts/build_bundle.py",
+    "data:validate": "node data/scripts/validate-bundle.ts",
+    "mobile": "pnpm --filter @jongshon/mobile start",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "prettier": "^3.6.2",
+    "typescript": "~5.9.3"
+  }
+}

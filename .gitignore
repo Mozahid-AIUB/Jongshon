@@ -1,0 +1,30 @@
+node_modules/
+.pnpm-store/
+dist/
+build/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# Expo
+.expo/
+apps/mobile/android/
+apps/mobile/ios/
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+# Data pipeline: large downloads and local Python env stay out of git
+data/.venv/
+data/raw/osm/*.pbf
+data/raw/osm/*.md5
+__pycache__/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json

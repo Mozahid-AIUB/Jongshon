@@ -1,0 +1,131 @@
+{
+  "fetched_at": "2026-10-19T19:06:00.572Z",
+  "journey_date": "2026-10-22",
+  "data": {
+    "days": [
+      "Fri",
+      "Sat",
+      "Sun",
+      "Mon",
+      "Wed",
+      "Thu"
+    ],
+    "routes": [
+      {
+        "city": "Lalmonirhat",
+        "departure_time": "09:10 pm BST",
+        "arrival_time": null,
+        "halt": null,
+        "duration": null
+      },
+      {
+        "city": "Burimari",
+        "departure_time": "06:00 pm BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Patgram",
+        "departure_time": "06:20 pm BST",
+        "arrival_time": "06:15 pm BST",
+        "halt": "05",
+        "duration": "00:15"
+      },
+      {
+        "city": "Barkhata",
+        "arrival_time": "06:47 pm BST",
+        "departure_time": "06:50 pm BST",
+        "halt": "03",
+        "duration": "00:27"
+      },
+      {
+        "city": "Hatibandha",
+        "departure_time": "07:05 pm BST",
+        "arrival_time": "07:02 pm BST",
+        "halt": "03",
+        "duration": "00:12"
+      },
+      {
+        "city": "Tushbhandar",
+        "arrival_time": "07:33 pm BST",
+        "departure_time": "07:35 pm BST",
+        "halt": "02",
+        "duration": "00:28"
+      },
+      {
+        "city": "Kankina",
+        "arrival_time": "10:43 pm BST",
+        "departure_time": "10:45 pm BST",
+        "halt": "02",
+        "duration": "03:08"
+      },
+      {
+        "city": "Kaunia",
+        "arrival_time": "09:33 pm BST",
+        "departure_time": "09:36 pm BST",
+        "halt": "03",
+        "duration": "01:12"
+      },
+      {
+        "city": "Gaibandha",
+        "arrival_time": "10:42 pm BST",
+        "departure_time": "10:45 pm BST",
+        "halt": "03",
+        "duration": "01:06"
+      },
+      {
+        "city": "Bonar_Para",
+        "arrival_time": "11:07 pm BST",
+        "departure_time": "11:10 pm BST",
+        "halt": "03",
+        "duration": "00:22"
+      },
+      {
+        "city": "Mahimaganj",
+        "arrival_time": "11:22 pm BST",
+        "halt": "---",
+        "duration": "00:12"
+      },
+      {
+        "city": "Sonatola",
+        "arrival_time": "11:31 pm BST",
+        "departure_time": "11:33 pm BST",
+        "halt": "02",
+        "duration": "---"
+      },
+      {
+        "city": "Bogura",
+        "departure_time": "12:08 am BST",
+        "arrival_time": "12:03 am BST",
+        "halt": "05",
+        "duration": "00:30"
+      },
+      {
+        "city": "Santahar",
+        "arrival_time": "01:00 am BST",
+        "departure_time": "01:05 am BST",
+        "halt": "05",
+        "duration": "00:52"
+      },
+      {
+        "city": "Natore",
+        "arrival_time": "02:03 am BST",
+        "departure_time": "02:13 am BST",
+        "halt": "10",
+        "duration": "00:58"
+      },
+      {
+        "city": "Dhaka",
+        "arrival_time": "06:30 am BST",
+        "halt": null,
+        "duration": "04:17",
+        "departure_time": null
+      }
+    ],
+    "total_duration": "09:20",
+    "train_name": "BURIMARI EXPRESS (810)"
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "fetched_at": "2026-10-19T19:06:18.330Z",
+  "journey_date": "2026-10-22",
+  "data": {
+    "days": [
+      "Fri",
+      "Sat",
+      "Sun",
+      "Mon",
+      "Tue",
+      "Thu"
+    ],
+    "routes": [
+      {
+        "city": "Rajshahi",
+        "departure_time": "03:00 pm BST",
+        "halt": null,
+        "duration": null,
+        "arrival_time": null
+      },
+      {
+        "city": "Kakonhat",
+        "arrival_time": "03:26 pm BST",
+        "halt": "---",
+        "duration": "00:26"
+      },
+      {
+        "city": "Lolitnagar",
+        "arrival_time": "03:36 pm BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Amnura_Junction",
+        "arrival_time": "03:49 pm BST",
+        "halt": "---",
+        "duration": "---"
+      },
+      {
+        "city": "Nachole",
+        "arrival_time": "04:05 pm BST",
+        "departure_time": "04:07 pm BST",
+        "halt": "02",
+        "duration": "---"
+      },
+      {
+        "city": "Rohanpur",
+        "arrival_time": "04:30 pm BST",
+        "halt": null,
+        "duration": "00:23",
+        "departure_time": null
+      }
+    ],
+    "total_duration": "01:30",
+    "train_name": "RAJSHAHI COMMUTER (77)"
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}

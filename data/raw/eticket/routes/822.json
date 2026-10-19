@@ -1,0 +1,111 @@
+{
+  "fetched_at": "2026-10-19T19:04:21.226Z",
+  "journey_date": "2026-10-22",
+  "data": {
+    "days": [
+      "Fri",
+      "Sat",
+      "Sun",
+      "Tue",
+      "Wed",
+      "Thu"
+    ],
+    "routes": [
+      {
+        "city": "Cox's Bazar",
+        "departure_time": "10:00 am BST",
+        "halt": null,
+        "duration": null,
+        "arrival_time": null
+      },
+      {
+        "city": "Ramu",
+        "arrival_time": "10:13 am BST",
+        "departure_time": "10:15 am BST",
+        "halt": "02",
+        "duration": "00:13"
+      },
+      {
+        "city": "ISLAMABAD",
+        "arrival_time": "10:32 am BST",
+        "departure_time": "10:34 am BST",
+        "halt": "02",
+        "duration": "00:17"
+      },
+      {
+        "city": "Dulahazara",
+        "arrival_time": "10:51 am BST",
+        "departure_time": "10:53 am BST",
+        "halt": "02",
+        "duration": "00:17"
+      },
+      {
+        "city": "Chakaria",
+        "arrival_time": "11:15 am BST",
+        "departure_time": "11:17 am BST",
+        "halt": "02",
+        "duration": "00:22"
+      },
+      {
+        "city": "HARBANG",
+        "arrival_time": "11:30 am BST",
+        "departure_time": "11:32 am BST",
+        "halt": "02",
+        "duration": "00:13"
+      },
+      {
+        "city": "LOHAGARA",
+        "arrival_time": "12:00 pm BST",
+        "departure_time": "12:02 pm BST",
+        "halt": "02",
+        "duration": "00:28"
+      },
+      {
+        "city": "Satkania",
+        "arrival_time": "12:15 pm BST",
+        "departure_time": "12:17 pm BST",
+        "halt": "02",
+        "duration": "00:13"
+      },
+      {
+        "city": "Dohazari",
+        "arrival_time": "12:30 pm BST",
+        "departure_time": "12:44 pm BST",
+        "halt": "14",
+        "duration": "00:13"
+      },
+      {
+        "city": "Patiya",
+        "arrival_time": "01:06 pm BST",
+        "departure_time": "01:08 pm BST",
+        "halt": "02",
+        "duration": "00:22"
+      },
+      {
+        "city": "GOMDANDI",
+        "arrival_time": "01:26 pm BST",
+        "departure_time": "01:28 pm BST",
+        "halt": "02",
+        "duration": "00:18"
+      },
+      {
+        "city": "Sholoshohor",
+        "arrival_time": "01:50 pm BST",
+        "halt": "---",
+        "duration": "00:22"
+      },
+      {
+        "city": "Chattogram",
+        "arrival_time": "02:10 pm BST",
+        "halt": null,
+        "duration": "---",
+        "departure_time": null
+      }
+    ],
+    "total_duration": "04:10",
+    "train_name": "PROBAL EXPRESS (822)"
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}

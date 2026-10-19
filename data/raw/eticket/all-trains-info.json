@@ -1,0 +1,947 @@
+{
+  "data": {
+    "trains": [
+      {
+        "train_number": "01",
+        "origin_city": "Chattogram",
+        "destination_city": "Chandpur",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "02",
+        "origin_city": "Chandpur",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "03",
+        "origin_city": "Dhaka",
+        "destination_city": "Dewanganj_Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "04",
+        "origin_city": "Dewanganj_Bazar",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "701",
+        "origin_city": "Chattogram",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "702",
+        "origin_city": "Dhaka",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "703",
+        "origin_city": "Chattogram",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "704",
+        "origin_city": "Dhaka",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "707",
+        "origin_city": "Dhaka",
+        "destination_city": "Dewanganj_Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "708",
+        "origin_city": "Dewanganj_Bazar",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "709",
+        "origin_city": "Dhaka",
+        "destination_city": "Sylhet",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "710",
+        "origin_city": "Sylhet",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "711",
+        "origin_city": "Noakhali",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "712",
+        "origin_city": "Dhaka",
+        "destination_city": "Noakhali",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "717",
+        "origin_city": "Dhaka",
+        "destination_city": "Sylhet",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "718",
+        "origin_city": "Sylhet",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "719",
+        "origin_city": "Chattogram",
+        "destination_city": "Sylhet",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "720",
+        "origin_city": "Sylhet",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "721",
+        "origin_city": "Chattogram",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "722",
+        "origin_city": "Dhaka",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "723",
+        "origin_city": "Chattogram",
+        "destination_city": "Sylhet",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "724",
+        "origin_city": "Sylhet",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "729",
+        "origin_city": "Chattogram",
+        "destination_city": "Chandpur",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "730",
+        "origin_city": "Chandpur",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "735",
+        "origin_city": "Dhaka",
+        "destination_city": "Tarakandi",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "736",
+        "origin_city": "Tarakandi",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "737",
+        "origin_city": "Dhaka",
+        "destination_city": "Kishorganj",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "738",
+        "origin_city": "Kishorganj",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "739",
+        "origin_city": "Dhaka",
+        "destination_city": "Sylhet",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "740",
+        "origin_city": "Sylhet",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "741",
+        "origin_city": "Chattogram",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "742",
+        "origin_city": "Dhaka",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "743",
+        "origin_city": "Dhaka",
+        "destination_city": "Dewanganj_Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "744",
+        "origin_city": "Dewanganj_Bazar",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "745",
+        "origin_city": "Dhaka",
+        "destination_city": "Tarakandi",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "746",
+        "origin_city": "Tarakandi",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "749",
+        "origin_city": "Dhaka",
+        "destination_city": "Kishorganj",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "750",
+        "origin_city": "Kishorganj",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "773",
+        "origin_city": "Dhaka",
+        "destination_city": "Sylhet",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "774",
+        "origin_city": "Sylhet",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "777",
+        "origin_city": "Dhaka",
+        "destination_city": "Mohanganj",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "778",
+        "origin_city": "Mohanganj",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "781",
+        "origin_city": "Dhaka",
+        "destination_city": "Kishorganj",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "782",
+        "origin_city": "Kishorganj",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "785",
+        "origin_city": "Chattogram",
+        "destination_city": "Jamalpur_Town",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "786",
+        "origin_city": "Jamalpur_Town",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "787",
+        "origin_city": "Chattogram",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "788",
+        "origin_city": "Dhaka",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "789",
+        "origin_city": "Dhaka",
+        "destination_city": "Mohanganj",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "790",
+        "origin_city": "Mohanganj",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "799",
+        "origin_city": "Dhaka",
+        "destination_city": "Bhuapur",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "800",
+        "origin_city": "Bhuapur",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "801",
+        "origin_city": "Chattogram",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "802",
+        "origin_city": "Dhaka",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "813",
+        "origin_city": "Cox's Bazar",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "814",
+        "origin_city": "Dhaka",
+        "destination_city": "Cox's Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "815",
+        "origin_city": "Cox's Bazar",
+        "destination_city": "Dhaka",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "816",
+        "origin_city": "Dhaka",
+        "destination_city": "Cox's Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "821",
+        "origin_city": "Chattogram",
+        "destination_city": "Cox's Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "822",
+        "origin_city": "Cox's Bazar",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "823",
+        "origin_city": "Chattogram",
+        "destination_city": "Cox's Bazar",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "824",
+        "origin_city": "Cox's Bazar",
+        "destination_city": "Chattogram",
+        "opening_time": "14:00:00",
+        "zone": "EAST"
+      },
+      {
+        "train_number": "09",
+        "origin_city": "Joydebpur",
+        "destination_city": "Parbatipur",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "10",
+        "origin_city": "Parbatipur",
+        "destination_city": "Joydebpur",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "705",
+        "origin_city": "Dhaka",
+        "destination_city": "Panchagarh",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "706",
+        "origin_city": "Panchagarh",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "713",
+        "origin_city": "Santahar",
+        "destination_city": "Burimari",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "714",
+        "origin_city": "Burimari",
+        "destination_city": "Santahar",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "715",
+        "origin_city": "Khulna",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "716",
+        "origin_city": "Rajshahi",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "725",
+        "origin_city": "Khulna",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "726",
+        "origin_city": "Dhaka",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "727",
+        "origin_city": "Khulna",
+        "destination_city": "Chilahati",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "728",
+        "origin_city": "Chilahati",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "731",
+        "origin_city": "Rajshahi",
+        "destination_city": "Chilahati",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "732",
+        "origin_city": "Chilahati",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "733",
+        "origin_city": "Rajshahi",
+        "destination_city": "Chilahati",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "734",
+        "origin_city": "Chilahati",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "747",
+        "origin_city": "Khulna",
+        "destination_city": "Chilahati",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "748",
+        "origin_city": "Chilahati",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "751",
+        "origin_city": "Dhaka",
+        "destination_city": "Lalmonirhat",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "752",
+        "origin_city": "Lalmonirhat",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "753",
+        "origin_city": "Dhaka",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "754",
+        "origin_city": "Rajshahi",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "755",
+        "origin_city": "Dhaka",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "756",
+        "origin_city": "Rajshahi",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "757",
+        "origin_city": "Dhaka",
+        "destination_city": "Panchagarh",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "758",
+        "origin_city": "Panchagarh",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "759",
+        "origin_city": "Dhaka",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "760",
+        "origin_city": "Rajshahi",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "761",
+        "origin_city": "Khulna",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "762",
+        "origin_city": "Rajshahi",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "763",
+        "origin_city": "Khulna",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "764",
+        "origin_city": "Dhaka",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "765",
+        "origin_city": "Dhaka",
+        "destination_city": "Chilahati",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "766",
+        "origin_city": "Chilahati",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "767",
+        "origin_city": "Santahar",
+        "destination_city": "Panchagarh",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "768",
+        "origin_city": "Panchagarh",
+        "destination_city": "Santahar",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "769",
+        "origin_city": "Dhaka",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "770",
+        "origin_city": "Rajshahi",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "771",
+        "origin_city": "Dhaka",
+        "destination_city": "Rangpur",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "772",
+        "origin_city": "Rangpur",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "775",
+        "origin_city": "Sirajganj_Bazar",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "776",
+        "origin_city": "Dhaka",
+        "destination_city": "Sirajganj_Bazar",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "779",
+        "origin_city": "Dhalarchar",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "780",
+        "origin_city": "Rajshahi",
+        "destination_city": "Dhalarchar",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "783",
+        "origin_city": "Gobra",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "784",
+        "origin_city": "Rajshahi",
+        "destination_city": "Gobra",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "791",
+        "origin_city": "Dhaka",
+        "destination_city": "Chapainawabganj",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "792",
+        "origin_city": "Chapainawabganj",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "793",
+        "origin_city": "Dhaka",
+        "destination_city": "Panchagarh",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "794",
+        "origin_city": "Panchagarh",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "795",
+        "origin_city": "Benapole",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "796",
+        "origin_city": "Dhaka",
+        "destination_city": "Benapole",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "797",
+        "origin_city": "Dhaka",
+        "destination_city": "Kurigram",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "798",
+        "origin_city": "Kurigram",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "803",
+        "origin_city": "Rajshahi",
+        "destination_city": "Panchagarh",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "804",
+        "origin_city": "Panchagarh",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "805",
+        "origin_city": "Dhaka",
+        "destination_city": "Chilahati",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "806",
+        "origin_city": "Chilahati",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "809",
+        "origin_city": "Dhaka",
+        "destination_city": "Lalmonirhat",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "810",
+        "origin_city": "Lalmonirhat",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "825",
+        "origin_city": "Khulna",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "826",
+        "origin_city": "Dhaka",
+        "destination_city": "Khulna",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "827",
+        "origin_city": "Benapole",
+        "destination_city": "Dhaka",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "828",
+        "origin_city": "Dhaka",
+        "destination_city": "Benapole",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "109",
+        "origin_city": "Rajshahi",
+        "destination_city": "Chapainawabganj",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "110",
+        "origin_city": "Chapainawabganj",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "41",
+        "origin_city": "Parbatipur",
+        "destination_city": "Panchagarh",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "42",
+        "origin_city": "Panchagarh",
+        "destination_city": "Parbatipur",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "57",
+        "origin_city": "Ishwardi",
+        "destination_city": "Rohanpur",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "58",
+        "origin_city": "Rohanpur",
+        "destination_city": "Ishwardi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "77",
+        "origin_city": "Rajshahi",
+        "destination_city": "Rohanpur",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      },
+      {
+        "train_number": "78",
+        "origin_city": "Rohanpur",
+        "destination_city": "Rajshahi",
+        "opening_time": "08:00:00",
+        "zone": "WEST"
+      }
+    ]
+  },
+  "extra": {
+    "hash": "AC3541932C2D470D683A15D48844790A"
+  }
+}
