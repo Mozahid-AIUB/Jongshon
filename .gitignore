@@ -2,6 +2,7 @@ node_modules/
 .pnpm-store/
 dist/
 build/
+!data/build/
 *.tsbuildinfo
 .env
 .env.*
@@ -28,3 +29,4 @@ __pycache__/
 Thumbs.db
 .vscode/*
 !.vscode/extensions.json
+data/raw/osm/places.json

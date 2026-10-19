@@ -1,0 +1,3605 @@
+{
+ "skipped_trains": [
+  {
+   "number": "01",
+   "reason": "no route published on e-ticket"
+  },
+  {
+   "number": "02",
+   "reason": "no route published on e-ticket"
+  },
+  {
+   "number": "03",
+   "reason": "no route published on e-ticket"
+  },
+  {
+   "number": "04",
+   "reason": "no route published on e-ticket"
+  },
+  {
+   "number": "09",
+   "reason": "no route published on e-ticket"
+  },
+  {
+   "number": "10",
+   "reason": "no route published on e-ticket"
+  },
+  {
+   "number": "109",
+   "reason": "no route published on e-ticket"
+  }
+ ],
+ "train_issues": {
+  "771": [
+   "Kurigram: time out of running order in source, stop left out"
+  ],
+  "772": [
+   "Kurigram: source departure 19:30 is before arrival 19:50; used typical 0 min halt",
+   "Kurigram: time out of running order in source, stop left out"
+  ],
+  "774": [
+   "Shaistaganj: source departure 08:20 is before arrival 08:57; used typical 3 min halt"
+  ],
+  "784": [
+   "Naliagram: time out of running order in source, stop left out",
+   "Khatra: time out of running order in source, stop left out"
+  ],
+  "799": [
+   "Narundi: time out of running order in source, stop left out"
+  ],
+  "800": [
+   "Narundi: time out of running order in source, stop left out"
+  ],
+  "809": [
+   "Kankina: time out of running order in source, stop left out"
+  ],
+  "810": [
+   "Lalmonirhat: listed first in source but the train starts at Burimari; placed between Tushbhandar and Kankina by time",
+   "Kankina: time out of running order in source, stop left out"
+  ]
+ },
+ "stations": {
+  "Abdulpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472122431",
+   "matched_name": "Abdulpur Junction",
+   "lon": 88.971789,
+   "lat": 24.2598727,
+   "km_to_track": 0.013
+  },
+  "Aditmari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/541868727",
+   "matched_name": "Aditmari Railway Station",
+   "lon": 89.3487399,
+   "lat": 25.9241464,
+   "km_to_track": 0.019
+  },
+  "Ahsanganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q16250226",
+   "matched_name": "Ahsanganj railway station",
+   "lon": 88.97508,
+   "lat": 24.614009,
+   "km_to_track": 0.063
+  },
+  "Akhanagar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60473942",
+   "matched_name": "Akhanagar railway station",
+   "lon": 88.3913532,
+   "lat": 26.0988829,
+   "km_to_track": 0.056
+  },
+  "Akhaura": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5798480633",
+   "matched_name": "Akhaura",
+   "lon": 91.2060188,
+   "lat": 23.8692316,
+   "km_to_track": 0.085
+  },
+  "Akkelpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472108317",
+   "matched_name": "Akkelpur",
+   "lon": 89.0157574,
+   "lat": 24.9645943,
+   "km_to_track": 0.0
+  },
+  "Alamdanga": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/4823956868",
+   "matched_name": "Alamdanga Railway Station",
+   "lon": 88.93651,
+   "lat": 23.7614107,
+   "km_to_track": 0.003
+  },
+  "Amirabad": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433147",
+   "matched_name": "Amirabad railway station",
+   "lon": 89.744254,
+   "lat": 23.6396887,
+   "km_to_track": 0.081
+  },
+  "Amnura_Bypass": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6307971044",
+   "matched_name": "Amnura Bypass",
+   "lon": 88.3955117,
+   "lat": 24.6151297,
+   "km_to_track": 0.048
+  },
+  "Amnura_Junction": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1131722598",
+   "matched_name": "Amnura Junction",
+   "lon": 88.3988061,
+   "lat": 24.6272818,
+   "km_to_track": 0.0
+  },
+  "Arani": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/7780059234",
+   "matched_name": "Arani Railway Station",
+   "lon": 88.8825729,
+   "lat": 24.2897643,
+   "km_to_track": 0.01
+  },
+  "Ashuganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5174141702",
+   "matched_name": "Ashuganj Railway Station",
+   "lon": 91.0016427,
+   "lat": 24.0382393,
+   "km_to_track": 0.122
+  },
+  "Atharabari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13723507943",
+   "matched_name": "Atharabari Railway Station",
+   "lon": 90.7129814,
+   "lat": 24.6408208,
+   "km_to_track": 0.014
+  },
+  "Azampur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/399602854",
+   "matched_name": "Azampur",
+   "lon": 91.2207969,
+   "lat": 23.8933208,
+   "km_to_track": 0.026
+  },
+  "Azim Nagar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/10925899530",
+   "matched_name": "Azim Nagar Railway Station, Gopalpur, Natore",
+   "lon": 89.006322,
+   "lat": 24.2061049,
+   "km_to_track": 0.036
+  },
+  "Badarganj": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1456297337",
+   "matched_name": "Badarganj Railway Station",
+   "lon": 89.0575874,
+   "lat": 25.6718109,
+   "km_to_track": 0.054
+  },
+  "Badherhat": {
+   "method": "name",
+   "score": 94.7,
+   "source": "wikidata",
+   "ref": "Q87151680",
+   "matched_name": "Badher hat railway station",
+   "lon": 89.636919444,
+   "lat": 23.897230555,
+   "km_to_track": 0.039
+  },
+  "Badiakhali": {
+   "method": "name+geometry",
+   "score": 80.0,
+   "source": "wikidata",
+   "ref": "Q60473955",
+   "matched_name": "Badiakhali Road railway station",
+   "lon": 89.5425546,
+   "lat": 25.2351406,
+   "km_to_track": 0.203
+  },
+  "Baharpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2577329862",
+   "matched_name": "Baharpur",
+   "lon": 89.5615165,
+   "lat": 23.6863795,
+   "km_to_track": 0.149
+  },
+  "Bajitpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6153977598",
+   "matched_name": "Bajitpur Railway Station",
+   "lon": 90.9130239,
+   "lat": 24.1997228,
+   "km_to_track": 0.208
+  },
+  "Bajra": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571248397",
+   "matched_name": "Bajra",
+   "lon": 91.1006125,
+   "lat": 22.9920794,
+   "km_to_track": 0.003
+  },
+  "Bamondanga": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571223722",
+   "matched_name": "Bamandanga",
+   "lon": 89.4456638,
+   "lat": 25.533746,
+   "km_to_track": 0.128
+  },
+  "Baramchal": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/9846256978",
+   "matched_name": "Baramchal",
+   "lon": 91.9788533,
+   "lat": 24.587583,
+   "km_to_track": 0.088
+  },
+  "Barhatta": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/624469195",
+   "matched_name": "Barhatta Railway Station",
+   "lon": 90.8815529,
+   "lat": 24.8977543,
+   "km_to_track": 0.026
+  },
+  "Barkhata": {
+   "method": "name",
+   "score": 94.1,
+   "source": "osm",
+   "ref": "way/542017027",
+   "matched_name": "Barakhata Railway Station",
+   "lon": 89.111198,
+   "lat": 26.202371,
+   "km_to_track": 0.179
+  },
+  "Baura": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60473964",
+   "matched_name": "Baura railway station",
+   "lon": 89.0863943,
+   "lat": 26.2420359,
+   "km_to_track": 0.021
+  },
+  "Benapole": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5568566530",
+   "matched_name": "Benapole",
+   "lon": 88.9027779,
+   "lat": 23.0430994,
+   "km_to_track": 0.006
+  },
+  "Bhairab_Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/540028581",
+   "matched_name": "Bhairab Bazar Junction",
+   "lon": 90.9781951,
+   "lat": 24.0502591,
+   "km_to_track": 0.0
+  },
+  "Bhanga": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/11919580953",
+   "matched_name": "Bhanga Railway Station",
+   "lon": 89.9844964,
+   "lat": 23.4004807,
+   "km_to_track": 0.36
+  },
+  "Bhanga_Junction": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/11919580953",
+   "matched_name": "Bhanga Railway Station",
+   "lon": 89.9844964,
+   "lat": 23.4004807,
+   "km_to_track": 0.36
+  },
+  "Bhanugach": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571271408",
+   "matched_name": "Bhanugach Railway Station",
+   "lon": 91.8412917,
+   "lat": 24.351743,
+   "km_to_track": 0.026
+  },
+  "Bhatiary": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/11147895677",
+   "matched_name": "Bhatiary Railway Station",
+   "lon": 91.7488463,
+   "lat": 22.4299733,
+   "km_to_track": 0.01
+  },
+  "Bheramara": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571238290",
+   "matched_name": "Bheramara",
+   "lon": 88.9918668,
+   "lat": 24.0232047,
+   "km_to_track": 0.022
+  },
+  "Bhomradah": {
+   "method": "name",
+   "score": 94.7,
+   "source": "wikidata",
+   "ref": "Q60454777",
+   "matched_name": "Bhomradaha railway station",
+   "lon": 88.3672589,
+   "lat": 25.9333037,
+   "km_to_track": 0.125
+  },
+  "Bhuapur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/288039799",
+   "matched_name": "Bhuapur",
+   "lon": 89.8667305,
+   "lat": 24.4670902,
+   "km_to_track": 0.037
+  },
+  "Bidyaganj": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 90.26249438150721,
+   "lat": 24.82686447363113,
+   "km_to_track": 0.42
+  },
+  "Biman_Bandar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/12082596681",
+   "matched_name": "Dhaka Airport Railway Station",
+   "lon": 90.4081911,
+   "lat": 23.8523202,
+   "km_to_track": 0.026
+  },
+  "Birampur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/3537382505",
+   "matched_name": "Birampur rail station",
+   "lon": 88.9940017,
+   "lat": 25.3979257,
+   "km_to_track": 0.072
+  },
+  "Boalmari_Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433140",
+   "matched_name": "Boalmari bazar railway station",
+   "lon": 89.6876729,
+   "lat": 23.3898263,
+   "km_to_track": 0.234
+  },
+  "Bogura": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472108318",
+   "matched_name": "Bogura Railway Station",
+   "lon": 89.3666678,
+   "lat": 24.8485692,
+   "km_to_track": 0.0
+  },
+  "Bonar_Para": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2543913699",
+   "matched_name": "Bonarpara",
+   "lon": 89.5233369,
+   "lat": 25.1643944,
+   "km_to_track": 0.028
+  },
+  "Boral_Bridge": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q60433103",
+   "matched_name": "Baral Bridge railway station",
+   "lon": 89.3807308,
+   "lat": 24.2149035,
+   "km_to_track": 0.077
+  },
+  "Borashi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6274328547",
+   "matched_name": "Borashi",
+   "lon": 89.8426335,
+   "lat": 22.9949044,
+   "km_to_track": 0.0
+  },
+  "Brahmanbaria": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433059",
+   "matched_name": "Brahmanbaria railway station",
+   "lon": 91.1082502,
+   "lat": 23.9664883,
+   "km_to_track": 0.222
+  },
+  "Burimari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1132413811",
+   "matched_name": "Burimari",
+   "lon": 88.9356094,
+   "lat": 26.3960696,
+   "km_to_track": 0.0
+  },
+  "Chakaria": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q122349896",
+   "matched_name": "Chakaria Railway Station",
+   "lon": 92.0387,
+   "lat": 21.7585,
+   "km_to_track": 0.025
+  },
+  "Chandpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/7752609038",
+   "matched_name": "Chandpur",
+   "lon": 90.6430506,
+   "lat": 23.2309202,
+   "km_to_track": 0.032
+  },
+  "Chandpur_Court": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2389086138",
+   "matched_name": "Chandpur Court",
+   "lon": 90.655019,
+   "lat": 23.2255213,
+   "km_to_track": 0.0
+  },
+  "Chandradighalia": {
+   "method": "name",
+   "score": 96.8,
+   "source": "osm",
+   "ref": "node/7858222190",
+   "matched_name": "Chandra Dighalia",
+   "lon": 89.7768778,
+   "lat": 23.0735283,
+   "km_to_track": 0.0
+  },
+  "Chapainawabganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433096",
+   "matched_name": "Chapai Nawabganj railway station",
+   "lon": 88.2804438,
+   "lat": 24.598897,
+   "km_to_track": 0.213
+  },
+  "Chapta": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6274328545",
+   "matched_name": "Chapta",
+   "lon": 89.7520757,
+   "lat": 23.1978933,
+   "km_to_track": 0.0
+  },
+  "Chatmohar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571279693",
+   "matched_name": "Chatmohar",
+   "lon": 89.2755732,
+   "lat": 24.1887526,
+   "km_to_track": 0.531
+  },
+  "Chattogram": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/9851701312",
+   "matched_name": "Chattogram Railway Station",
+   "lon": 91.8295576,
+   "lat": 22.3340209,
+   "km_to_track": 0.012
+  },
+  "Chilahati": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2543961100",
+   "matched_name": "Chilahati",
+   "lon": 88.7963052,
+   "lat": 26.2431402,
+   "km_to_track": 0.177
+  },
+  "Chirirbandar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571296118",
+   "matched_name": "Chirirbandar",
+   "lon": 88.7758409,
+   "lat": 25.6458795,
+   "km_to_track": 0.033
+  },
+  "Chitoshi_Road": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433092",
+   "matched_name": "Chitoshi Road railway station",
+   "lon": 91.0293621,
+   "lat": 23.2356824,
+   "km_to_track": 0.123
+  },
+  "Choto Bahirbag": {
+   "method": "name",
+   "score": 96.8,
+   "source": "osm",
+   "ref": "node/5998340998",
+   "matched_name": "Chhoto Bahirbagh",
+   "lon": 89.7817216,
+   "lat": 23.1408061,
+   "km_to_track": 0.0
+  },
+  "Choumuhani": {
+   "method": "name",
+   "score": 92,
+   "source": "osm",
+   "ref": "node/2571330813",
+   "matched_name": "Chowmuhani",
+   "lon": 91.1206903,
+   "lat": 22.9439118,
+   "km_to_track": 0.009
+  },
+  "Chuadanga": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2545403737",
+   "matched_name": "Chuadanga",
+   "lon": 88.8546283,
+   "lat": 23.6380381,
+   "km_to_track": 0.05
+  },
+  "Cox's Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/11393830116",
+   "matched_name": "Cox's Bazar Railway Station",
+   "lon": 92.0150366,
+   "lat": 21.4293611,
+   "km_to_track": 0.19
+  },
+  "Cumilla": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6153037078",
+   "matched_name": "Cumilla Railway Station",
+   "lon": 91.1667328,
+   "lat": 23.4636412,
+   "km_to_track": 0.063
+  },
+  "Darshana_Halt": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1731369808",
+   "matched_name": "Darshana Railway Junction",
+   "lon": 88.7971289,
+   "lat": 23.5264682,
+   "km_to_track": 0.0
+  },
+  "Dashuria": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6018702590",
+   "matched_name": "Dashuria",
+   "lon": 89.130372,
+   "lat": 24.1126858,
+   "km_to_track": 0.032
+  },
+  "Daulatpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/3494309852",
+   "matched_name": "Daulatpur Rail Station",
+   "lon": 89.522307,
+   "lat": 22.8766319,
+   "km_to_track": 0.011
+  },
+  "Dewanganj_Bazar": {
+   "method": "name",
+   "score": 97.0,
+   "source": "wikidata",
+   "ref": "Q60433077",
+   "matched_name": "Dewanganj railway station",
+   "lon": 89.7563294,
+   "lat": 25.1570343,
+   "km_to_track": 0.015
+  },
+  "Dhaka": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/429426172",
+   "matched_name": "Kamalapur Railway Station",
+   "lon": 90.4263546,
+   "lat": 23.7314531,
+   "km_to_track": 0.072
+  },
+  "Dhalarchar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q85354628",
+   "matched_name": "Dhalarchar railway station",
+   "lon": 89.667322222,
+   "lat": 23.841905555,
+   "km_to_track": 0.117
+  },
+  "Dinajpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/3941919938",
+   "matched_name": "Dinajpur",
+   "lon": 88.6327879,
+   "lat": 25.6250705,
+   "km_to_track": 0.031
+  },
+  "Dohazari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2568281958",
+   "matched_name": "Dohazari",
+   "lon": 92.069168,
+   "lat": 22.1633514,
+   "km_to_track": 0.023
+  },
+  "Domar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571355263",
+   "matched_name": "Domar",
+   "lon": 88.8199769,
+   "lat": 26.1046376,
+   "km_to_track": 0.008
+  },
+  "Dublia": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 89.38400225783333,
+   "lat": 23.976701689202645,
+   "km_to_track": 0.707
+  },
+  "Dulahazara": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 92.06770494784664,
+   "lat": 21.644798929973504,
+   "km_to_track": 0.085
+  },
+  "Faridpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/3615214048",
+   "matched_name": "Faridpur Railway Station",
+   "lon": 89.8426903,
+   "lat": 23.6108764,
+   "km_to_track": 0.025
+  },
+  "Feni": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/540028232",
+   "matched_name": "Feni Junction",
+   "lon": 91.4031816,
+   "lat": 23.0131035,
+   "km_to_track": 0.055
+  },
+  "Fulbari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5209720258",
+   "matched_name": "Fulbari",
+   "lon": 88.968885,
+   "lat": 25.4954304,
+   "km_to_track": 0.02
+  },
+  "GOMDANDI": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/7501325290",
+   "matched_name": "Gomdandi",
+   "lon": 91.9171693,
+   "lat": 22.378175,
+   "km_to_track": 0.023
+  },
+  "Gachihata": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571356558",
+   "matched_name": "Gachihata",
+   "lon": 90.8245692,
+   "lat": 24.3419288,
+   "km_to_track": 0.058
+  },
+  "Gafargaon": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/541640813",
+   "matched_name": "Gafargaon Railway Station",
+   "lon": 90.5477997,
+   "lat": 24.4537007,
+   "km_to_track": 0.017
+  },
+  "Gaibandha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/11821778903",
+   "matched_name": "Gaibandha Rail station",
+   "lon": 89.5422672,
+   "lat": 25.3327133,
+   "km_to_track": 0.011
+  },
+  "Gobra": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6026248103",
+   "matched_name": "Gobra",
+   "lon": 89.8289198,
+   "lat": 22.9477984,
+   "km_to_track": 0.169
+  },
+  "Gopalganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6026248104",
+   "matched_name": "Gopalganj",
+   "lon": 89.8401059,
+   "lat": 23.03408,
+   "km_to_track": 0.0
+  },
+  "Gouripur_Myn": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60454805",
+   "matched_name": "Gauripur railway station",
+   "lon": 90.565753,
+   "lat": 24.7641736,
+   "km_to_track": 0.002
+  },
+  "Gunabati": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q25586275",
+   "matched_name": "Gunabati Railway Station",
+   "lon": 91.2975119,
+   "lat": 23.0875992,
+   "km_to_track": 0.014
+  },
+  "HARBANG": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 92.04106637142013,
+   "lat": 21.840446414720297,
+   "km_to_track": 0.015
+  },
+  "Hajiganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571375836",
+   "matched_name": "Hajiganj",
+   "lon": 90.8482297,
+   "lat": 23.2581807,
+   "km_to_track": 0.011
+  },
+  "Harashpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/399602849",
+   "matched_name": "Harashpur",
+   "lon": 91.3106125,
+   "lat": 24.0170928,
+   "km_to_track": 0.016
+  },
+  "Hasanpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/7740073824",
+   "matched_name": "Hasanpur",
+   "lon": 91.2372613,
+   "lat": 23.135506,
+   "km_to_track": 0.02
+  },
+  "Hatibandha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/542016103",
+   "matched_name": "Hatibandha",
+   "lon": 89.1384279,
+   "lat": 26.1283763,
+   "km_to_track": 0.027
+  },
+  "Hemnagar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2522139441",
+   "matched_name": "Hemnagar Railway Station",
+   "lon": 89.8596709,
+   "lat": 24.5679749,
+   "km_to_track": 0.011
+  },
+  "Hi-Tech City": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/7743879735",
+   "matched_name": "Hitech Park Railway Station",
+   "lon": 90.2203239,
+   "lat": 24.0627512,
+   "km_to_track": 0.053
+  },
+  "Hili": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472108324",
+   "matched_name": "Hili Railway Station",
+   "lon": 89.0069924,
+   "lat": 25.277513,
+   "km_to_track": 0.0
+  },
+  "ISLAMABAD": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 92.05388825071297,
+   "lat": 21.541239737787663,
+   "km_to_track": 0.08
+  },
+  "Ibrahimabad": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/306469787",
+   "matched_name": "Ibrahimabad Rail Station",
+   "lon": 89.8200921,
+   "lat": 24.3895108,
+   "km_to_track": 0.02
+  },
+  "Ishwardi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472122432",
+   "matched_name": "Ishwardi Junction",
+   "lon": 89.0627856,
+   "lat": 24.1302456,
+   "km_to_track": 0.0
+  },
+  "Ishwardi Bypass": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571409241",
+   "matched_name": "Ishwardi Bypass",
+   "lon": 89.0574975,
+   "lat": 24.1550637,
+   "km_to_track": 0.016
+  },
+  "Islampur_Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571427589",
+   "matched_name": "Islampur Bazar",
+   "lon": 89.7916227,
+   "lat": 25.0778008,
+   "km_to_track": 0.022
+  },
+  "Jaforshahi": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 89.87462438150197,
+   "lat": 24.834932856940675,
+   "km_to_track": 0.047
+  },
+  "Jagannathgonj_Bazar": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 89.82959032363138,
+   "lat": 24.64575011167809,
+   "km_to_track": 0.571
+  },
+  "Jamalganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/4000866140",
+   "matched_name": "Jamalganj Railway Station",
+   "lon": 89.0219499,
+   "lat": 25.0305229,
+   "km_to_track": 0.0
+  },
+  "Jamalpur_Town": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433069",
+   "matched_name": "Jamalpur Town Junction railway station",
+   "lon": 89.9546366,
+   "lat": 24.9147876,
+   "km_to_track": 0.22
+  },
+  "Jamtail": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433105",
+   "matched_name": "Jamtail railway station",
+   "lon": 89.6602392,
+   "lat": 24.3611518,
+   "km_to_track": 0.276
+  },
+  "Janali_Hat": {
+   "method": "name",
+   "score": 95.2,
+   "source": "osm",
+   "ref": "node/2568274941",
+   "matched_name": "Jan ali Hat",
+   "lon": 91.8719498,
+   "lat": 22.3958667,
+   "km_to_track": 0.0
+  },
+  "Jashore": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q29467789",
+   "matched_name": "Jashore Junction railway station",
+   "lon": 89.2086,
+   "lat": 23.1543,
+   "km_to_track": 0.023
+  },
+  "Jhikargacha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433160",
+   "matched_name": "Jhikargacha railway station",
+   "lon": 89.1006574,
+   "lat": 23.0991044,
+   "km_to_track": 0.034
+  },
+  "Joydebpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472696992",
+   "matched_name": "Joydebpur Junction",
+   "lon": 90.420312,
+   "lat": 23.9980388,
+   "km_to_track": 0.08
+  },
+  "Joypurhat": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/10696923127",
+   "matched_name": "Joypurhat Railway Station",
+   "lon": 89.0257582,
+   "lat": 25.0989939,
+   "km_to_track": 0.028
+  },
+  "Kakonhat": {
+   "method": "name+geometry",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q60433098",
+   "matched_name": "Kakon Haat railway station",
+   "lon": 88.4716666,
+   "lat": 24.5070408,
+   "km_to_track": 0.106
+  },
+  "Kalukhali": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2577322733",
+   "matched_name": "Kalukhali Junction",
+   "lon": 89.4804096,
+   "lat": 23.7681463,
+   "km_to_track": 0.028
+  },
+  "Kanchan_Junction": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/4958430808",
+   "matched_name": "Kanchan",
+   "lon": 88.5997528,
+   "lat": 25.6235395,
+   "km_to_track": 0.0
+  },
+  "Kankina": {
+   "method": "name",
+   "score": 92.3,
+   "source": "osm",
+   "ref": "node/7780472522",
+   "matched_name": "Kakina Railway Station",
+   "lon": 89.2416787,
+   "lat": 25.956043,
+   "km_to_track": 0.12
+  },
+  "Kaoraid": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/9819630432",
+   "matched_name": "Kaoraid",
+   "lon": 90.5124472,
+   "lat": 24.3083152,
+   "km_to_track": 0.198
+  },
+  "Kashiani": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2577350772",
+   "matched_name": "Kashiani Junction",
+   "lon": 89.7250801,
+   "lat": 23.2334792,
+   "km_to_track": 0.2
+  },
+  "Kashinathpur": {
+   "method": "name",
+   "score": 96.0,
+   "source": "wikidata",
+   "ref": "Q87151681",
+   "matched_name": "Kashinathapur railway station",
+   "lon": 89.589811111,
+   "lat": 23.970305555,
+   "km_to_track": 0.018
+  },
+  "Kaunia": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1430006596",
+   "matched_name": "Kaunia Junction",
+   "lon": 89.4236255,
+   "lat": 25.7777897,
+   "km_to_track": 0.068
+  },
+  "Kawgaon": {
+   "method": "name+geometry",
+   "score": 76.9,
+   "source": "wikidata",
+   "ref": "Q25587779",
+   "matched_name": "Kaugao railway station",
+   "lon": 88.70617,
+   "lat": 25.61894,
+   "km_to_track": 0.005
+  },
+  "Kendua_Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60473984",
+   "matched_name": "Kendua Bazar railway station",
+   "lon": 89.9067315,
+   "lat": 24.8567534,
+   "km_to_track": 0.015
+  },
+  "Khoksha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571451237",
+   "matched_name": "Khoksha",
+   "lon": 89.3029737,
+   "lat": 23.8308846,
+   "km_to_track": 0.061
+  },
+  "Kholahati": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2570858033",
+   "matched_name": "Kholahati",
+   "lon": 88.9749473,
+   "lat": 25.6564494,
+   "km_to_track": 0.781
+  },
+  "Khulna": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5752306686",
+   "matched_name": "Khulna Junction Rail Station",
+   "lon": 89.5426183,
+   "lat": 22.8414732,
+   "km_to_track": 0.026
+  },
+  "Kishorganj": {
+   "method": "name",
+   "score": 95.2,
+   "source": "osm",
+   "ref": "way/591628993",
+   "matched_name": "Kishoreganj Railway Station",
+   "lon": 90.7885851,
+   "lat": 24.4262911,
+   "km_to_track": 0.019
+  },
+  "Kismat": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13447742825",
+   "matched_name": "Kismat Railway Station",
+   "lon": 88.4471299,
+   "lat": 26.2221461,
+   "km_to_track": 0.024
+  },
+  "Kotchandpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433110",
+   "matched_name": "Kotchandpur railway station",
+   "lon": 89.014087,
+   "lat": 23.4154955,
+   "km_to_track": 0.017
+  },
+  "Kulaura": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433089",
+   "matched_name": "Kulaura Junction railway station",
+   "lon": 92.0365419,
+   "lat": 24.5227025,
+   "km_to_track": 0.018
+  },
+  "Kuliarchar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571458092",
+   "matched_name": "Kuliarchar Railway Station",
+   "lon": 90.9286747,
+   "lat": 24.1510023,
+   "km_to_track": 0.011
+  },
+  "Kumarkhali": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571469118",
+   "matched_name": "Kumarkhali",
+   "lon": 89.2410244,
+   "lat": 23.8605756,
+   "km_to_track": 0.031
+  },
+  "Kumira": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60454847",
+   "matched_name": "Kumira railway station",
+   "lon": 91.7158949,
+   "lat": 22.5050044,
+   "km_to_track": 0.382
+  },
+  "Kurigram": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1478704276",
+   "matched_name": "Kurigram",
+   "lon": 89.6212955,
+   "lat": 25.8075574,
+   "km_to_track": 0.0
+  },
+  "Kushtia_Court": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571478484",
+   "matched_name": "Kushtia Court Station",
+   "lon": 89.1282874,
+   "lat": 23.9070671,
+   "km_to_track": 0.023
+  },
+  "LOHAGARA": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": "rejected Lohagara railway station (wikidata Q131696645): 10.3x too far",
+   "lon": 92.08561052402365,
+   "lat": 22.008542722057545,
+   "km_to_track": 0.035
+  },
+  "Laksam": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q18344863",
+   "matched_name": "Laksam Railway Junction",
+   "lon": 91.1240602,
+   "lat": 23.2546121,
+   "km_to_track": 0.035
+  },
+  "Lalmonirhat": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1430006598",
+   "matched_name": "Lalmonirhat Junction",
+   "lon": 89.4453733,
+   "lat": 25.9118285,
+   "km_to_track": 0.0
+  },
+  "Lohagora": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q131696645",
+   "matched_name": "Lohagara railway station",
+   "lon": 89.65992,
+   "lat": 23.19847,
+   "km_to_track": 0.264
+  },
+  "Lokmanpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433164",
+   "matched_name": "Lokmanpur railway station",
+   "lon": 88.933449,
+   "lat": 24.281224,
+   "km_to_track": 0.505
+  },
+  "Lolitnagar": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q60473927",
+   "matched_name": "Lalitnagar railway station",
+   "lon": 88.4349746,
+   "lat": 24.5628155,
+   "km_to_track": 0.53
+  },
+  "Madhnagar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433133",
+   "matched_name": "Madhnagar railway station",
+   "lon": 88.9619472,
+   "lat": 24.5359822,
+   "km_to_track": 0.03
+  },
+  "Madhukhali": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2577331355",
+   "matched_name": "Madhukhali",
+   "lon": 89.6307076,
+   "lat": 23.5467521,
+   "km_to_track": 0.377
+  },
+  "Mahimaganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433156",
+   "matched_name": "Mahimaganj railway station",
+   "lon": 89.4937819,
+   "lat": 25.1042123,
+   "km_to_track": 0.078
+  },
+  "Maijdi Court": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571507697",
+   "matched_name": "Maijdee Court",
+   "lon": 91.1049378,
+   "lat": 22.8606549,
+   "km_to_track": 0.007
+  },
+  "Maijgaon": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571513622",
+   "matched_name": "Maijgaon",
+   "lon": 91.9515527,
+   "lat": 24.6861852,
+   "km_to_track": 0.009
+  },
+  "Majhgram": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60473973",
+   "matched_name": "Majhgram Junction railway station",
+   "lon": 89.0920413,
+   "lat": 24.1632049,
+   "km_to_track": 0.116
+  },
+  "Manikkhali": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433057",
+   "matched_name": "Manikkhali railway station",
+   "lon": 90.8466446,
+   "lat": 24.2973852,
+   "km_to_track": 0.008
+  },
+  "Manmathapur": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q25587788",
+   "matched_name": "Monmothpur Railway Station",
+   "lon": 88.84749,
+   "lat": 25.65847,
+   "km_to_track": 0.102
+  },
+  "Mawa": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q111909067",
+   "matched_name": "Mawa railway station",
+   "lon": 90.2705,
+   "lat": 23.4851,
+   "km_to_track": 0.036
+  },
+  "Meher": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571324804",
+   "matched_name": "Meher",
+   "lon": 90.9433168,
+   "lat": 23.2451995,
+   "km_to_track": 0.008
+  },
+  "Melandah_Bazar": {
+   "method": "name",
+   "score": 96.6,
+   "source": "osm",
+   "ref": "node/2571654830",
+   "matched_name": "Melandaha Bazar",
+   "lon": 89.8534173,
+   "lat": 24.9781758,
+   "km_to_track": 0.354
+  },
+  "Methikanda": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/11738295269",
+   "matched_name": "Methikanda railway station, raipura",
+   "lon": 90.8670217,
+   "lat": 23.9925823,
+   "km_to_track": 0.286
+  },
+  "Mirpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433114",
+   "matched_name": "Mirpur railway station",
+   "lon": 88.9970726,
+   "lat": 23.9415851,
+   "km_to_track": 0.025
+  },
+  "Mirzapur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433107",
+   "matched_name": "Mirzapur railway station",
+   "lon": 90.1016953,
+   "lat": 24.1054415,
+   "km_to_track": 0.136
+  },
+  "Modhu_Road": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433095",
+   "matched_name": "Modhu Road railway station",
+   "lon": 90.7562,
+   "lat": 23.2444,
+   "km_to_track": 0.071
+  },
+  "Mohanganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2409424649",
+   "matched_name": "Mohanganj Railway Station",
+   "lon": 90.9730349,
+   "lat": 24.8708225,
+   "km_to_track": 0.157
+  },
+  "Mongalpur": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q25587789",
+   "matched_name": "Mangolpur railway station",
+   "lon": 88.53519,
+   "lat": 25.71927,
+   "km_to_track": 0.018
+  },
+  "Montola": {
+   "method": "name",
+   "score": 92,
+   "source": "osm",
+   "ref": "node/399602847",
+   "matched_name": "Mantala",
+   "lon": 91.3450478,
+   "lat": 24.0693972,
+   "km_to_track": 0.037
+  },
+  "Mubarakganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1396549912",
+   "matched_name": "Mubarakganj Railway Station",
+   "lon": 89.1246135,
+   "lat": 23.4004597,
+   "km_to_track": 0.094
+  },
+  "Muksudpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q131696653",
+   "matched_name": "Muksudpur railway station",
+   "lon": 89.85534,
+   "lat": 23.33145,
+   "km_to_track": 0.692
+  },
+  "Mukundapur": {
+   "method": "name",
+   "score": 95.2,
+   "source": "osm",
+   "ref": "node/399602851",
+   "matched_name": "Mukundahpur",
+   "lon": 91.2645929,
+   "lat": 23.9636205,
+   "km_to_track": 0.079
+  },
+  "Muladhuli": {
+   "method": "name",
+   "score": 94.1,
+   "source": "osm",
+   "ref": "node/6185338150",
+   "matched_name": "Muladuli",
+   "lon": 89.1432797,
+   "lat": 24.1638224,
+   "km_to_track": 0.009
+  },
+  "Mymensingh": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1167590094",
+   "matched_name": "Mymensingh Railway Junction",
+   "lon": 90.4101031,
+   "lat": 24.7532728,
+   "km_to_track": 0.023
+  },
+  "Nachole": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433162",
+   "matched_name": "Nachole railway station",
+   "lon": 88.4025514,
+   "lat": 24.7247062,
+   "km_to_track": 0.359
+  },
+  "Nandangachi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1312839115",
+   "matched_name": "Nandangachi Railway Station",
+   "lon": 88.8013463,
+   "lat": 24.3151752,
+   "km_to_track": 0.273
+  },
+  "Nandina": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571828149",
+   "matched_name": "Nandina",
+   "lon": 90.035903,
+   "lat": 24.8677052,
+   "km_to_track": 0.031
+  },
+  "Nangolkot": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571837941",
+   "matched_name": "Nangolkot",
+   "lon": 91.20123,
+   "lat": 23.1653428,
+   "km_to_track": 0.274
+  },
+  "Narail": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q111928434",
+   "matched_name": "Narail railway station",
+   "lon": 89.5139887,
+   "lat": 23.1895346,
+   "km_to_track": 0.189
+  },
+  "Narsingdi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433051",
+   "matched_name": "Narsingdi railway station",
+   "lon": 90.7211683,
+   "lat": 23.930936,
+   "km_to_track": 0.159
+  },
+  "Narundi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/7959231811",
+   "matched_name": "Narundi",
+   "lon": 90.1199339,
+   "lat": 24.8650076,
+   "km_to_track": 0.099
+  },
+  "Natherpetua": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1217710239",
+   "matched_name": "Natherpetua Train Station",
+   "lon": 91.1153904,
+   "lat": 23.1131781,
+   "km_to_track": 0.079
+  },
+  "Natore": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/527251501",
+   "matched_name": "Natore Railway Station",
+   "lon": 88.9665907,
+   "lat": 24.4108675,
+   "km_to_track": 0.07
+  },
+  "Nayaniburuj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13447756292",
+   "matched_name": "Nayaniburuz Railway Station",
+   "lon": 88.4961061,
+   "lat": 26.2776881,
+   "km_to_track": 0.035
+  },
+  "Nayapara": {
+   "method": "name+geometry",
+   "score": 92,
+   "source": "osm",
+   "ref": "node/5876122517",
+   "matched_name": "Noapara Train Station",
+   "lon": 91.3567097,
+   "lat": 24.1807621,
+   "km_to_track": 0.003
+  },
+  "Netrakona": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q60454811",
+   "matched_name": "Netrokona railway station",
+   "lon": 90.7207793,
+   "lat": 24.8888623,
+   "km_to_track": 0.033
+  },
+  "Nilphamari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1412092716",
+   "matched_name": "Nilphamari",
+   "lon": 88.8358417,
+   "lat": 25.9490764,
+   "km_to_track": 0.0
+  },
+  "Noakhali": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433088",
+   "matched_name": "Noakhali railway station",
+   "lon": 91.1013963,
+   "lat": 22.8274798,
+   "km_to_track": 0.021
+  },
+  "Noapara": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/534845794",
+   "matched_name": "Noapara Railway Station",
+   "lon": 89.3952521,
+   "lat": 23.0331751,
+   "km_to_track": 0.386
+  },
+  "Pabna": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5153076681",
+   "matched_name": "Pabna Railway Station",
+   "lon": 89.2561065,
+   "lat": 24.0159984,
+   "km_to_track": 0.036
+  },
+  "Pachuria": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2425716838",
+   "matched_name": "Pachuria",
+   "lon": 89.7117147,
+   "lat": 23.7475385,
+   "km_to_track": 0.075
+  },
+  "Padma": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/9822264805",
+   "matched_name": "Padma Railway Station, Padma Brg Rd, Shibchar",
+   "lon": 90.2188185,
+   "lat": 23.3983671,
+   "km_to_track": 0.478
+  },
+  "Paksey": {
+   "method": "name",
+   "score": 92,
+   "source": "osm",
+   "ref": "node/3219870277",
+   "matched_name": "Pakshi",
+   "lon": 89.0406856,
+   "lat": 24.070877,
+   "km_to_track": 0.0
+  },
+  "Panchagarh": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13447825604",
+   "matched_name": "Panchagarh Railway Station",
+   "lon": 88.5358838,
+   "lat": 26.3265556,
+   "km_to_track": 0.011
+  },
+  "Panchbibi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1472108343",
+   "matched_name": "Panchbibi",
+   "lon": 89.0215654,
+   "lat": 25.1885176,
+   "km_to_track": 0.0
+  },
+  "Pangsha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2429206696",
+   "matched_name": "Pangsha Railway Station",
+   "lon": 89.4171519,
+   "lat": 23.7861527,
+   "km_to_track": 0.135
+  },
+  "Parbatipur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2509314541",
+   "matched_name": "Parbatipur Junction",
+   "lon": 88.915503,
+   "lat": 25.6532156,
+   "km_to_track": 0.053
+  },
+  "Patgram": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1430007276",
+   "matched_name": "Patgram",
+   "lon": 89.0213325,
+   "lat": 26.3437585,
+   "km_to_track": 0.0
+  },
+  "Patiya": {
+   "method": "name",
+   "score": 92,
+   "source": "osm",
+   "ref": "node/2412035423",
+   "matched_name": "Potiya Railway Station",
+   "lon": 91.9820023,
+   "lat": 22.2978905,
+   "km_to_track": 0.02
+  },
+  "Pirgacha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571898000",
+   "matched_name": "Pirgacha",
+   "lon": 89.407802,
+   "lat": 25.6593276,
+   "km_to_track": 0.144
+  },
+  "Pirganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1412090871",
+   "matched_name": "Pirganj",
+   "lon": 88.3578266,
+   "lat": 25.859262,
+   "km_to_track": 0.0
+  },
+  "Piyarpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2936302655",
+   "matched_name": "Piyarpur",
+   "lon": 90.1966031,
+   "lat": 24.8790798,
+   "km_to_track": 0.032
+  },
+  "Poradaha": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1675547046",
+   "matched_name": "Poradaha Junction",
+   "lon": 89.032612,
+   "lat": 23.8646803,
+   "km_to_track": 0.011
+  },
+  "Pukuria": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6372120711",
+   "matched_name": "Pukuria",
+   "lon": 89.9573489,
+   "lat": 23.4424507,
+   "km_to_track": 0.051
+  },
+  "Quasba": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571343421",
+   "matched_name": "Kasba",
+   "lon": 91.1555601,
+   "lat": 23.7402697,
+   "km_to_track": 0.178
+  },
+  "Raghabpur": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "source": "timetable+track",
+   "ref": null,
+   "matched_name": null,
+   "lon": 89.30777862133594,
+   "lat": 23.994299014390904,
+   "km_to_track": 0.177
+  },
+  "Rajbari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q31725776",
+   "matched_name": "Rajbari railway station",
+   "lon": 89.65177,
+   "lat": 23.76131,
+   "km_to_track": 0.128
+  },
+  "Rajshahi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1671923183",
+   "matched_name": "Rajshahi Railway Station",
+   "lon": 88.6085678,
+   "lat": 24.3750032,
+   "km_to_track": 0.049
+  },
+  "Rajshahi_Court": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1058530656",
+   "matched_name": "Rajshahi Court Railway Station",
+   "lon": 88.5654954,
+   "lat": 24.3789643,
+   "km_to_track": 0.032
+  },
+  "Ramu": {
+   "method": "place+track (approximate)",
+   "score": 100.0,
+   "source": "osm-place",
+   "ref": "town",
+   "matched_name": "Ramu",
+   "lon": 92.0898255,
+   "lat": 21.4436211,
+   "km_to_track": 0.0
+  },
+  "Rangpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1904544249",
+   "matched_name": "Rangpur",
+   "lon": 89.2640182,
+   "lat": 25.7284027,
+   "km_to_track": 0.0
+  },
+  "Rohanpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1429898632",
+   "matched_name": "Rohanpur Railway Station",
+   "lon": 88.3194605,
+   "lat": 24.8204543,
+   "km_to_track": 0.0
+  },
+  "Ruhia": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13447738495",
+   "matched_name": "Ruhia Railway Station",
+   "lon": 88.4054637,
+   "lat": 26.1682454,
+   "km_to_track": 0.032
+  },
+  "SH M Monsur Ali": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433106",
+   "matched_name": "Shahid M. Monsur Ali railway station",
+   "lon": 89.6901043,
+   "lat": 24.3972888,
+   "km_to_track": 0.215
+  },
+  "SOYDABAD": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/306469779",
+   "matched_name": "Saidabad Railway Station",
+   "lon": 89.7334733,
+   "lat": 24.396119,
+   "km_to_track": 0.0
+  },
+  "Safdarpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6273553499",
+   "matched_name": "Safdarpur",
+   "lon": 88.9614488,
+   "lat": 23.4624102,
+   "km_to_track": 0.027
+  },
+  "Saidpur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1412090876",
+   "matched_name": "Saidpur",
+   "lon": 88.8931484,
+   "lat": 25.7870289,
+   "km_to_track": 0.0
+  },
+  "Santahar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/1133342959",
+   "matched_name": "Santahar Junction",
+   "lon": 88.9860566,
+   "lat": 24.8061937,
+   "km_to_track": 0.033
+  },
+  "Sararchar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/395729040",
+   "matched_name": "Sararchar",
+   "lon": 90.9008189,
+   "lat": 24.2185349,
+   "km_to_track": 0.427
+  },
+  "Sardah_Road": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433099",
+   "matched_name": "Sardah Road railway station",
+   "lon": 88.7523812,
+   "lat": 24.3371847,
+   "km_to_track": 0.153
+  },
+  "Sarishabari": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2312873589",
+   "matched_name": "Sarishabari Railway Station",
+   "lon": 89.8400644,
+   "lat": 24.7608313,
+   "km_to_track": 0.426
+  },
+  "Sathia_Rajapur": {
+   "method": "name",
+   "score": 96.6,
+   "source": "wikidata",
+   "ref": "Q87151684",
+   "matched_name": "Shathia rajapur railway station",
+   "lon": 89.486891666,
+   "lat": 23.972838888,
+   "km_to_track": 0.284
+  },
+  "Satkania": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1225154762",
+   "matched_name": "Satkania Railway Station",
+   "lon": 92.0619349,
+   "lat": 22.0921713,
+   "km_to_track": 0.071
+  },
+  "Setabganj": {
+   "method": "name",
+   "score": 92,
+   "source": "wikidata",
+   "ref": "Q25587787",
+   "matched_name": "Setabgonj railway station",
+   "lon": 88.46187,
+   "lat": 25.79822,
+   "km_to_track": 0.072
+  },
+  "Shahaji_Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2571998660",
+   "matched_name": "Shahaji Bazar",
+   "lon": 91.3821144,
+   "lat": 24.2532051,
+   "km_to_track": 0.01
+  },
+  "Shaistaganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2441439299",
+   "matched_name": "Shaistaganj Junction",
+   "lon": 91.4498721,
+   "lat": 24.2783448,
+   "km_to_track": 0.015
+  },
+  "Shamshernagar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2572009861",
+   "matched_name": "Shamshernagar Railway Station",
+   "lon": 91.9003959,
+   "lat": 24.3828822,
+   "km_to_track": 0.017
+  },
+  "Shashidal": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13432204290",
+   "matched_name": "Shashidal Railway Station",
+   "lon": 91.1468792,
+   "lat": 23.6385282,
+   "km_to_track": 0.003
+  },
+  "Shibchar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q131515305",
+   "matched_name": "Shibchar railway station",
+   "lon": 90.130117,
+   "lat": 23.386328,
+   "km_to_track": 0.068
+  },
+  "Shibganj": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/13676710276",
+   "matched_name": "Shibganj Railway Station",
+   "lon": 88.4036924,
+   "lat": 25.9983895,
+   "km_to_track": 0.009
+  },
+  "Sholoshohor": {
+   "method": "name",
+   "score": 92,
+   "source": "osm",
+   "ref": "node/2568262632",
+   "matched_name": "Sholashohor Junction",
+   "lon": 91.8265257,
+   "lat": 22.3685144,
+   "km_to_track": 0.043
+  },
+  "Shyamgonj": {
+   "method": "name",
+   "score": 94.1,
+   "source": "osm",
+   "ref": "node/1472157684",
+   "matched_name": "Shamgonj Junction",
+   "lon": 90.5793508,
+   "lat": 24.8381407,
+   "km_to_track": 0.013
+  },
+  "Singia": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5187825081",
+   "matched_name": "Singia Railway Station",
+   "lon": 89.3466177,
+   "lat": 23.1216056,
+   "km_to_track": 0.068
+  },
+  "Sirajganj_Bazar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/5862118170",
+   "matched_name": "Sirajganj Bazar",
+   "lon": 89.7023278,
+   "lat": 24.4510411,
+   "km_to_track": 0.003
+  },
+  "Sirajganjraipur": {
+   "method": "name",
+   "score": 96.8,
+   "source": "wikidata",
+   "ref": "Q60473981",
+   "matched_name": "Sirajganj Raipur railway station",
+   "lon": 89.6999091,
+   "lat": 24.4374067,
+   "km_to_track": 0.165
+  },
+  "Sonaimuri": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2572038881",
+   "matched_name": "Sonaimuri",
+   "lon": 91.0986423,
+   "lat": 23.0440112,
+   "km_to_track": 0.117
+  },
+  "Sonatola": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433121",
+   "matched_name": "Sonatola railway station",
+   "lon": 89.4976437,
+   "lat": 25.0408641,
+   "km_to_track": 0.243
+  },
+  "Sreemangal": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/1545698095",
+   "matched_name": "Sreemangal Railway Station",
+   "lon": 91.7347046,
+   "lat": 24.3065758,
+   "km_to_track": 0.023
+  },
+  "Sreenagar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/8737668775",
+   "matched_name": "Sreenagar Railway Station",
+   "lon": 90.2913489,
+   "lat": 23.5374046,
+   "km_to_track": 0.03
+  },
+  "Sreepur": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/10591782081",
+   "matched_name": "Sreepur",
+   "lon": 90.4795567,
+   "lat": 24.1989858,
+   "km_to_track": 0.002
+  },
+  "Sultanpur": {
+   "method": "name",
+   "score": 97.0,
+   "source": "osm",
+   "ref": "node/13447752620",
+   "matched_name": "Sultanpur School Railway Station",
+   "lon": 88.4037035,
+   "lat": 25.8229715,
+   "km_to_track": 0.075
+  },
+  "Sylhet": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/9846219004",
+   "matched_name": "Sylhet Railway Station",
+   "lon": 91.8679883,
+   "lat": 24.8817611,
+   "km_to_track": 0.009
+  },
+  "Talma": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6372120710",
+   "matched_name": "Talma",
+   "lon": 89.8766674,
+   "lat": 23.4902665,
+   "km_to_track": 0.125
+  },
+  "Talora": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433157",
+   "matched_name": "Talora railway station",
+   "lon": 89.1806602,
+   "lat": 24.8241711,
+   "km_to_track": 0.065
+  },
+  "Tangail": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2545364919",
+   "matched_name": "Tangail",
+   "lon": 89.9375911,
+   "lat": 24.2738513,
+   "km_to_track": 0.403
+  },
+  "Tantibandha": {
+   "method": "place+track (approximate)",
+   "score": 95.2,
+   "source": "osm-place",
+   "ref": "village",
+   "matched_name": "Tantibanda",
+   "lon": 89.4346654,
+   "lat": 23.9739305,
+   "km_to_track": 0.0
+  },
+  "Tarakandi": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/2277895704",
+   "matched_name": "Tarakandi Railway Station",
+   "lon": 89.8243306,
+   "lat": 24.6857189,
+   "km_to_track": 0.202
+  },
+  "Tebunia": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "node/6043075832",
+   "matched_name": "Tebunia",
+   "lon": 89.2061351,
+   "lat": 24.0740651,
+   "km_to_track": 0.027
+  },
+  "Teesta_Junction": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/540961107",
+   "matched_name": "Tista Junction",
+   "lon": 89.4407225,
+   "lat": 25.808524,
+   "km_to_track": 0.048
+  },
+  "Thakrokona": {
+   "method": "name",
+   "score": 100.0,
+   "source": "osm",
+   "ref": "way/539948579",
+   "matched_name": "Thakrokona Railway Station",
+   "lon": 90.8177301,
+   "lat": 24.9073262,
+   "km_to_track": 0.053
+  },
+  "Thakurgaon_Road": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q131632273",
+   "matched_name": "Thakurgaon Road railway station",
+   "lon": 88.4267702,
+   "lat": 26.0391632,
+   "km_to_track": 0.364
+  },
+  "Tushbhandar": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433152",
+   "matched_name": "Tushbhandar railway station",
+   "lon": 89.2024612,
+   "lat": 25.9669962,
+   "km_to_track": 0.063
+  },
+  "Ullapara": {
+   "method": "name",
+   "score": 100.0,
+   "source": "wikidata",
+   "ref": "Q60433104",
+   "matched_name": "Ullapara railway station",
+   "lon": 89.5708371,
+   "lat": 24.2902682,
+   "km_to_track": 0.106
+  }
+ },
+ "routing": {},
+ "speed": [
+  {
+   "train": "755",
+   "from": "Sreenagar",
+   "to": "Mawa",
+   "km": 5.9,
+   "min": 3,
+   "kmh": 118
+  },
+  {
+   "train": "755",
+   "from": "Pukuria",
+   "to": "Talma",
+   "km": 9.7,
+   "min": 1,
+   "kmh": 580
+  },
+  {
+   "train": "756",
+   "from": "Talma",
+   "to": "Pukuria",
+   "km": 9.9,
+   "min": 5,
+   "kmh": 119
+  },
+  {
+   "train": "756",
+   "from": "Mawa",
+   "to": "Sreenagar",
+   "km": 6.0,
+   "min": 2,
+   "kmh": 179
+  }
+ ],
+ "summary": {
+  "trains": 127,
+  "skipped_trains": 7,
+  "stations": 236,
+  "matched": 236,
+  "unmatched": [],
+  "geometry_conflicts": [],
+  "routed_trains": 127,
+  "segments": 373,
+  "speed_flags": 4,
+  "seconds": 40.5
+ },
+ "review": {
+  "Badarganj": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "matched_name": "Badarganj Railway Station",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Badarganj Railway Station",
+     "source": "osm",
+     "ref": "way/1456297337",
+     "lon": 89.0575874,
+     "lat": 25.6718109
+    },
+    {
+     "score": 100.0,
+     "name": "Badarganj",
+     "source": "osm",
+     "ref": "node/2571203280",
+     "lon": 89.1808277,
+     "lat": 25.7071259
+    },
+    {
+     "score": 70.6,
+     "name": "Amirganj",
+     "source": "osm",
+     "ref": "node/12520587006",
+     "lon": 90.772617,
+     "lat": 23.9355818
+    }
+   ]
+  },
+  "Badherhat": {
+   "method": "name",
+   "score": 94.7,
+   "matched_name": "Badher hat railway station",
+   "alternatives": [
+    {
+     "score": 94.7,
+     "name": "Badher hat railway station",
+     "source": "wikidata",
+     "ref": "Q87151680",
+     "lon": 89.636919444,
+     "lat": 23.897230555
+    },
+    {
+     "score": 82.4,
+     "name": "Bagerhat Railway Station",
+     "source": "osm",
+     "ref": "node/6081144039",
+     "lon": 89.793433,
+     "lat": 22.6570592
+    },
+    {
+     "score": 79.4,
+     "name": "Bagerhat College",
+     "source": "osm",
+     "ref": "node/6269466358",
+     "lon": 89.7818337,
+     "lat": 22.6649386
+    },
+    {
+     "score": 70.6,
+     "name": "Barhatta Railway Station",
+     "source": "osm",
+     "ref": "way/624469195",
+     "lon": 90.8815529,
+     "lat": 24.8977543
+    }
+   ]
+  },
+  "Badiakhali": {
+   "method": "name+geometry",
+   "score": 80.0,
+   "matched_name": "Badiakhali Road railway station",
+   "alternatives": [
+    {
+     "score": 80.0,
+     "name": "Badiakhali Road railway station",
+     "source": "wikidata",
+     "ref": "Q60473955",
+     "lon": 89.5425546,
+     "lat": 25.2351406
+    },
+    {
+     "score": 77.8,
+     "name": "Gadkhali",
+     "source": "osm",
+     "ref": "node/6271860535",
+     "lon": 89.0484076,
+     "lat": 23.068692
+    },
+    {
+     "score": 77.8,
+     "name": "Balakhal railway station",
+     "source": "wikidata",
+     "ref": "Q60474067",
+     "lon": 90.8149838,
+     "lat": 23.2561523
+    },
+    {
+     "score": 73.7,
+     "name": "Katakhali",
+     "source": "osm",
+     "ref": "node/5998375243",
+     "lon": 89.6329897,
+     "lat": 22.7345527
+    },
+    {
+     "score": 70.0,
+     "name": "Madhukhali",
+     "source": "osm",
+     "ref": "node/2577331355",
+     "lon": 89.6307076,
+     "lat": 23.5467521
+    }
+   ]
+  },
+  "Barkhata": {
+   "method": "name",
+   "score": 94.1,
+   "matched_name": "Barakhata Railway Station",
+   "alternatives": [
+    {
+     "score": 94.1,
+     "name": "Barakhata Railway Station",
+     "source": "osm",
+     "ref": "way/542017027",
+     "lon": 89.111198,
+     "lat": 26.202371
+    },
+    {
+     "score": 87.5,
+     "name": "Barhatta Railway Station",
+     "source": "osm",
+     "ref": "way/624469195",
+     "lon": 90.8815529,
+     "lat": 24.8977543
+    },
+    {
+     "score": 75.0,
+     "name": "Bagerhat Railway Station",
+     "source": "osm",
+     "ref": "node/6081144039",
+     "lon": 89.793433,
+     "lat": 22.6570592
+    },
+    {
+     "score": 75.0,
+     "name": "Barlekha",
+     "source": "osm",
+     "ref": "node/4885600898",
+     "lon": 92.1911069,
+     "lat": 24.7052689
+    }
+   ]
+  },
+  "Bhanga": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "matched_name": "Bhanga Railway Station",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Bhanga Railway Station",
+     "source": "osm",
+     "ref": "node/11919580953",
+     "lon": 89.9844964,
+     "lat": 23.4004807
+    },
+    {
+     "score": 100.0,
+     "name": "Bhanga railway station",
+     "source": "wikidata",
+     "ref": "Q60473925",
+     "lon": 89.9866748,
+     "lat": 23.3971918
+    },
+    {
+     "score": 100.0,
+     "name": "Bhanga Junction railway station",
+     "source": "wikidata",
+     "ref": "Q111909070",
+     "lon": 90.02288,
+     "lat": 23.37465
+    },
+    {
+     "score": 90.9,
+     "name": "Bhaga",
+     "source": "osm",
+     "ref": "node/6185330324",
+     "lon": 89.6405342,
+     "lat": 22.6177158
+    }
+   ]
+  },
+  "Bhanga_Junction": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "matched_name": "Bhanga Railway Station",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Bhanga Railway Station",
+     "source": "osm",
+     "ref": "node/11919580953",
+     "lon": 89.9844964,
+     "lat": 23.4004807
+    },
+    {
+     "score": 100.0,
+     "name": "Bhanga railway station",
+     "source": "wikidata",
+     "ref": "Q60473925",
+     "lon": 89.9866748,
+     "lat": 23.3971918
+    },
+    {
+     "score": 100.0,
+     "name": "Bhanga Junction railway station",
+     "source": "wikidata",
+     "ref": "Q111909070",
+     "lon": 90.02288,
+     "lat": 23.37465
+    },
+    {
+     "score": 90.9,
+     "name": "Bhaga",
+     "source": "osm",
+     "ref": "node/6185330324",
+     "lon": 89.6405342,
+     "lat": 22.6177158
+    }
+   ]
+  },
+  "Bhomradah": {
+   "method": "name",
+   "score": 94.7,
+   "matched_name": "Bhomradaha railway station",
+   "alternatives": [
+    {
+     "score": 94.7,
+     "name": "Bhomradaha railway station",
+     "source": "wikidata",
+     "ref": "Q60454777",
+     "lon": 88.3672589,
+     "lat": 25.9333037
+    },
+    {
+     "score": 75.0,
+     "name": "Poradah Junction railway station",
+     "source": "wikidata",
+     "ref": "Q60433113",
+     "lon": 89.0327096,
+     "lat": 23.864725
+    }
+   ]
+  },
+  "Bidyaganj": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": [
+    {
+     "score": 77.8,
+     "name": "Badarganj Railway Station",
+     "source": "osm",
+     "ref": "way/1456297337",
+     "lon": 89.0575874,
+     "lat": 25.6718109
+    },
+    {
+     "score": 77.8,
+     "name": "Badarganj",
+     "source": "osm",
+     "ref": "node/2571203280",
+     "lon": 89.1808277,
+     "lat": 25.7071259
+    }
+   ]
+  },
+  "Boral_Bridge": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Baral Bridge railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Baral Bridge railway station",
+     "source": "wikidata",
+     "ref": "Q60433103",
+     "lon": 89.3807308,
+     "lat": 24.2149035
+    }
+   ]
+  },
+  "Choumuhani": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Chowmuhani",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Chowmuhani",
+     "source": "osm",
+     "ref": "node/2571330813",
+     "lon": 91.1206903,
+     "lat": 22.9439118
+    }
+   ]
+  },
+  "Darshana_Halt": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "matched_name": "Darshana Railway Junction",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Darshana Railway Junction",
+     "source": "osm",
+     "ref": "node/1731369808",
+     "lon": 88.7971289,
+     "lat": 23.5264682
+    },
+    {
+     "score": 100.0,
+     "name": "Darshana railway station",
+     "source": "wikidata",
+     "ref": "Q5225536",
+     "lon": 88.7904,
+     "lat": 23.5036
+    },
+    {
+     "score": 100.0,
+     "name": "Darshana Halt railway station",
+     "source": "wikidata",
+     "ref": "Q60473887",
+     "lon": 88.8099597,
+     "lat": 23.5291016
+    },
+    {
+     "score": 100.0,
+     "name": "Darshana junction railway station",
+     "source": "wikidata",
+     "ref": "Q85371554",
+     "lon": 88.7972,
+     "lat": 23.526980555
+    }
+   ]
+  },
+  "Dublia": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": []
+  },
+  "Dulahazara": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": []
+  },
+  "HARBANG": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": [
+    {
+     "score": 76.9,
+     "name": "Harian railway station",
+     "source": "wikidata",
+     "ref": "Q60454769",
+     "lon": 88.6858729,
+     "lat": 24.375412
+    },
+    {
+     "score": 71.4,
+     "name": "Kharana railway station",
+     "source": "wikidata",
+     "ref": "Q97251477",
+     "lon": 92.014951,
+     "lat": 22.261157
+    },
+    {
+     "score": 70.6,
+     "name": "Hatubhanga",
+     "source": "osm",
+     "ref": "node/12520596261",
+     "lon": 90.8245137,
+     "lat": 23.9696807
+    },
+    {
+     "score": 70.6,
+     "name": "Hatubhanga railway station",
+     "source": "wikidata",
+     "ref": "Q60474004",
+     "lon": 90.8240222,
+     "lat": 23.9695324
+    },
+    {
+     "score": 70.6,
+     "name": "Dohabhanga railway station",
+     "source": "wikidata",
+     "ref": "Q60474064",
+     "lon": 90.9501135,
+     "lat": 23.2442986
+    }
+   ]
+  },
+  "ISLAMABAD": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": [
+    {
+     "score": 70.6,
+     "name": "Saidabad Railway Station",
+     "source": "osm",
+     "ref": "node/306469779",
+     "lon": 89.7334733,
+     "lat": 24.396119
+    },
+    {
+     "score": 70.6,
+     "name": "Amirabad railway station",
+     "source": "wikidata",
+     "ref": "Q60433147",
+     "lon": 89.744254,
+     "lat": 23.6396887
+    },
+    {
+     "score": 70.0,
+     "name": "Ibrahimabad Rail Station",
+     "source": "osm",
+     "ref": "node/306469787",
+     "lon": 89.8200921,
+     "lat": 24.3895108
+    },
+    {
+     "score": 70.0,
+     "name": "Ibrahimabad Railway Station",
+     "source": "wikidata",
+     "ref": "Q60433083",
+     "lon": 89.8198313,
+     "lat": 24.3894695
+    }
+   ]
+  },
+  "Jaforshahi": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": []
+  },
+  "Jagannathgonj_Bazar": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": [
+    {
+     "score": 89.3,
+     "name": "Jagannathganj Ghat",
+     "source": "osm",
+     "ref": "node/2545018723",
+     "lon": 89.808578,
+     "lat": 24.6417426
+    },
+    {
+     "score": 89.3,
+     "name": "Jagannathganj Ghat railway station",
+     "source": "wikidata",
+     "ref": "Q60454794",
+     "lon": 89.8084956,
+     "lat": 24.6415709
+    }
+   ]
+  },
+  "Kakonhat": {
+   "method": "name+geometry",
+   "score": 92,
+   "matched_name": "Kakon Haat railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Khanhat",
+     "source": "osm",
+     "ref": "node/7501325297",
+     "lon": 92.0397483,
+     "lat": 22.2159706
+    },
+    {
+     "score": 92,
+     "name": "Kakon Haat railway station",
+     "source": "wikidata",
+     "ref": "Q60433098",
+     "lon": 88.4716666,
+     "lat": 24.5070408
+    },
+    {
+     "score": 71.4,
+     "name": "Kakina Railway Station",
+     "source": "osm",
+     "ref": "node/7780472522",
+     "lon": 89.2416787,
+     "lat": 25.956043
+    },
+    {
+     "score": 71.4,
+     "name": "Kakina railway station",
+     "source": "wikidata",
+     "ref": "Q60473959",
+     "lon": 89.2433542,
+     "lat": 25.9552906
+    }
+   ]
+  },
+  "Kankina": {
+   "method": "name",
+   "score": 92.3,
+   "matched_name": "Kakina Railway Station",
+   "alternatives": [
+    {
+     "score": 92.3,
+     "name": "Kakina Railway Station",
+     "source": "osm",
+     "ref": "node/7780472522",
+     "lon": 89.2416787,
+     "lat": 25.956043
+    },
+    {
+     "score": 92.3,
+     "name": "Kakina railway station",
+     "source": "wikidata",
+     "ref": "Q60473959",
+     "lon": 89.2433542,
+     "lat": 25.9552906
+    },
+    {
+     "score": 76.9,
+     "name": "Kaunia Junction",
+     "source": "osm",
+     "ref": "node/1430006596",
+     "lon": 89.4236255,
+     "lat": 25.7777897
+    },
+    {
+     "score": 71.4,
+     "name": "Nandina",
+     "source": "osm",
+     "ref": "node/2571828149",
+     "lon": 90.035903,
+     "lat": 24.8677052
+    }
+   ]
+  },
+  "Kawgaon": {
+   "method": "name+geometry",
+   "score": 76.9,
+   "matched_name": "Kaugao railway station",
+   "alternatives": [
+    {
+     "score": 76.9,
+     "name": "Kaugao railway station",
+     "source": "wikidata",
+     "ref": "Q25587779",
+     "lon": 88.70617,
+     "lat": 25.61894
+    },
+    {
+     "score": 71.4,
+     "name": "Satgaon railway station",
+     "source": "wikidata",
+     "ref": "Q60454824",
+     "lon": 91.6655098,
+     "lat": 24.2889347
+    }
+   ]
+  },
+  "LOHAGARA": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": "rejected Lohagara railway station (wikidata Q131696645): 10.3x too far",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Lohagara railway station",
+     "source": "wikidata",
+     "ref": "Q131696645",
+     "lon": 89.65992,
+     "lat": 23.19847
+    }
+   ]
+  },
+  "Lohagora": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Lohagara railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Lohagara railway station",
+     "source": "wikidata",
+     "ref": "Q131696645",
+     "lon": 89.65992,
+     "lat": 23.19847
+    }
+   ]
+  },
+  "Lolitnagar": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Lalitnagar railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Lalitnagar railway station",
+     "source": "wikidata",
+     "ref": "Q60473927",
+     "lon": 88.4349746,
+     "lat": 24.5628155
+    },
+    {
+     "score": 70.0,
+     "name": "Altafnagar railway station",
+     "source": "wikidata",
+     "ref": "Q60473957",
+     "lon": 89.1300255,
+     "lat": 24.818869
+    },
+    {
+     "score": 70.0,
+     "name": "Bokainagar Railway Station",
+     "source": "wikidata",
+     "ref": "Q90937382",
+     "lon": 90.581462,
+     "lat": 24.729781
+    }
+   ]
+  },
+  "Manmathapur": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Monmothpur Railway Station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Monmothpur Railway Station",
+     "source": "wikidata",
+     "ref": "Q25587788",
+     "lon": 88.84749,
+     "lat": 25.65847
+    },
+    {
+     "score": 75.0,
+     "name": "Kashinathapur railway station",
+     "source": "wikidata",
+     "ref": "Q87151681",
+     "lon": 89.589811111,
+     "lat": 23.970305555
+    },
+    {
+     "score": 70.0,
+     "name": "Anandapur",
+     "source": "osm",
+     "ref": "node/10139464266",
+     "lon": 91.4313018,
+     "lat": 23.0903909
+    },
+    {
+     "score": 70.0,
+     "name": "Kamalapur Railway Station",
+     "source": "osm",
+     "ref": "way/429426172",
+     "lon": 90.4263546,
+     "lat": 23.7314531
+    },
+    {
+     "score": 70.0,
+     "name": "Kamalapur Railway Station",
+     "source": "osm",
+     "ref": "node/4774174062",
+     "lon": 90.4262749,
+     "lat": 23.7319508
+    }
+   ]
+  },
+  "Mongalpur": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Mangolpur railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Mangolpur railway station",
+     "source": "wikidata",
+     "ref": "Q25587789",
+     "lon": 88.53519,
+     "lat": 25.71927
+    },
+    {
+     "score": 75.0,
+     "name": "Sonapur",
+     "source": "osm",
+     "ref": "node/2544500337",
+     "lon": 91.1014625,
+     "lat": 22.8276953
+    },
+    {
+     "score": 70.6,
+     "name": "Jamalpur Railway Station (Junction)",
+     "source": "osm",
+     "ref": "node/2671771171",
+     "lon": 89.9539535,
+     "lat": 24.9152996
+    },
+    {
+     "score": 70.6,
+     "name": "Mominpur",
+     "source": "osm",
+     "ref": "node/6273897626",
+     "lon": 88.8789595,
+     "lat": 23.6842586
+    },
+    {
+     "score": 70.6,
+     "name": "Jamalpur railway station",
+     "source": "wikidata",
+     "ref": "Q60433069",
+     "lon": 89.9546366,
+     "lat": 24.9147876
+    }
+   ]
+  },
+  "Montola": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Mantala",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Mantala",
+     "source": "osm",
+     "ref": "node/399602847",
+     "lon": 91.3450478,
+     "lat": 24.0693972
+    },
+    {
+     "score": 92,
+     "name": "Mantala railway station",
+     "source": "wikidata",
+     "ref": "Q60433068",
+     "lon": 91.3450795,
+     "lat": 24.0695405
+    },
+    {
+     "score": 80.0,
+     "name": "Sonatola railway station",
+     "source": "wikidata",
+     "ref": "Q60433121",
+     "lon": 89.4976437,
+     "lat": 25.0408641
+    },
+    {
+     "score": 76.9,
+     "name": "Mongla",
+     "source": "osm",
+     "ref": "node/6185330322",
+     "lon": 89.5996326,
+     "lat": 22.4774147
+    },
+    {
+     "score": 76.9,
+     "name": "Mongla Railway Station",
+     "source": "wikidata",
+     "ref": "Q97252497",
+     "lon": 89.599509,
+     "lat": 22.477769
+    }
+   ]
+  },
+  "Muladhuli": {
+   "method": "name",
+   "score": 94.1,
+   "matched_name": "Muladuli",
+   "alternatives": [
+    {
+     "score": 94.1,
+     "name": "Muladuli",
+     "source": "osm",
+     "ref": "node/6185338150",
+     "lon": 89.1432797,
+     "lat": 24.1638224
+    },
+    {
+     "score": 94.1,
+     "name": "Muladuli railway station",
+     "source": "wikidata",
+     "ref": "Q60433130",
+     "lon": 89.1467274,
+     "lat": 24.1645764
+    },
+    {
+     "score": 73.7,
+     "name": "Madhukhali",
+     "source": "osm",
+     "ref": "node/2577331355",
+     "lon": 89.6307076,
+     "lat": 23.5467521
+    },
+    {
+     "score": 73.7,
+     "name": "Madhukhali railway station",
+     "source": "wikidata",
+     "ref": "Q60433139",
+     "lon": 89.630755,
+     "lat": 23.5460016
+    }
+   ]
+  },
+  "Nayapara": {
+   "method": "name+geometry",
+   "score": 92,
+   "matched_name": "Noapara Train Station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Noapara Railway Station",
+     "source": "osm",
+     "ref": "way/534845794",
+     "lon": 89.3952521,
+     "lat": 23.0331751
+    },
+    {
+     "score": 92,
+     "name": "Noapara Train Station",
+     "source": "osm",
+     "ref": "node/5876122517",
+     "lon": 91.3567097,
+     "lat": 24.1807621
+    }
+   ]
+  },
+  "Netrakona": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Netrokona railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Netrokona railway station",
+     "source": "wikidata",
+     "ref": "Q60454811",
+     "lon": 90.7207793,
+     "lat": 24.8888623
+    },
+    {
+     "score": 70.0,
+     "name": "Thakurakona railway station",
+     "source": "wikidata",
+     "ref": "Q60473998",
+     "lon": 90.8180201,
+     "lat": 24.9073403
+    }
+   ]
+  },
+  "Noapara": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "matched_name": "Noapara Railway Station",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Noapara Railway Station",
+     "source": "osm",
+     "ref": "way/534845794",
+     "lon": 89.3952521,
+     "lat": 23.0331751
+    },
+    {
+     "score": 100.0,
+     "name": "Noapara Train Station",
+     "source": "osm",
+     "ref": "node/5876122517",
+     "lon": 91.3567097,
+     "lat": 24.1807621
+    }
+   ]
+  },
+  "Padma": {
+   "method": "name+geometry",
+   "score": 100.0,
+   "matched_name": "Padma Railway Station, Padma Brg Rd, Shibchar",
+   "alternatives": [
+    {
+     "score": 100.0,
+     "name": "Padma Railway Station, Padma Brg Rd, Shibchar",
+     "source": "osm",
+     "ref": "node/9822264805",
+     "lon": 90.2188185,
+     "lat": 23.3983671
+    },
+    {
+     "score": 100.0,
+     "name": "Padma railway station",
+     "source": "wikidata",
+     "ref": "Q111909068",
+     "lon": 90.2546,
+     "lat": 23.40606
+    },
+    {
+     "score": 71.4,
+     "name": "Padmabila Junction railway station",
+     "source": "wikidata",
+     "ref": "Q111928436",
+     "lon": 89.3487506,
+     "lat": 23.1468109
+    }
+   ]
+  },
+  "Paksey": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Pakshi",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Pakshi",
+     "source": "osm",
+     "ref": "node/3219870277",
+     "lon": 89.0406856,
+     "lat": 24.070877
+    }
+   ]
+  },
+  "Patiya": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Potiya Railway Station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Potiya Railway Station",
+     "source": "osm",
+     "ref": "node/2412035423",
+     "lon": 91.9820023,
+     "lat": 22.2978905
+    }
+   ]
+  },
+  "Raghabpur": {
+   "method": "interpolated (approximate)",
+   "score": 0,
+   "matched_name": null,
+   "alternatives": [
+    {
+     "score": 77.8,
+     "name": "Rathnapur",
+     "source": "osm",
+     "ref": "node/399602811",
+     "lon": 91.4855988,
+     "lat": 24.276422
+    },
+    {
+     "score": 75.0,
+     "name": "Rangpur",
+     "source": "osm",
+     "ref": "node/1904544249",
+     "lon": 89.2640182,
+     "lat": 25.7284027
+    },
+    {
+     "score": 75.0,
+     "name": "Rajapur",
+     "source": "osm",
+     "ref": "node/3708384897",
+     "lon": 91.1522854,
+     "lat": 23.5800828
+    },
+    {
+     "score": 75.0,
+     "name": "Rangpur railway station",
+     "source": "wikidata",
+     "ref": "Q60433131",
+     "lon": 89.2634621,
+     "lat": 25.7284973
+    }
+   ]
+  },
+  "Ramu": {
+   "method": "place+track (approximate)",
+   "score": 100.0,
+   "matched_name": "Ramu",
+   "alternatives": []
+  },
+  "Setabganj": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Setabgonj railway station",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Setabgonj railway station",
+     "source": "wikidata",
+     "ref": "Q25587787",
+     "lon": 88.46187,
+     "lat": 25.79822
+    },
+    {
+     "score": 73.7,
+     "name": "Shambuganj railway station",
+     "source": "wikidata",
+     "ref": "Q60454804",
+     "lon": 90.4491634,
+     "lat": 24.7600882
+    },
+    {
+     "score": 70.6,
+     "name": "Shibganj Railway Station",
+     "source": "osm",
+     "ref": "node/13676710276",
+     "lon": 88.4036924,
+     "lat": 25.9983895
+    },
+    {
+     "score": 70.6,
+     "name": "Shibganj railway station",
+     "source": "wikidata",
+     "ref": "Q60473940",
+     "lon": 88.4034647,
+     "lat": 25.9982659
+    },
+    {
+     "score": 70.6,
+     "name": "Shamganj Junction railway station",
+     "source": "wikidata",
+     "ref": "Q60454806",
+     "lon": 90.5793571,
+     "lat": 24.8383092
+    }
+   ]
+  },
+  "Sholoshohor": {
+   "method": "name",
+   "score": 92,
+   "matched_name": "Sholashohor Junction",
+   "alternatives": [
+    {
+     "score": 92,
+     "name": "Sholashohor Junction",
+     "source": "osm",
+     "ref": "node/2568262632",
+     "lon": 91.8265257,
+     "lat": 22.3685144
+    },
+    {
+     "score": 76.2,
+     "name": "HaliShahar Station",
+     "source": "osm",
+     "ref": "node/6132064561",
+     "lon": 91.7811027,
+     "lat": 22.3234038
+    },
+    {
+     "score": 70.0,
+     "name": "Talshahar railway station",
+     "source": "wikidata",
+     "ref": "Q60474007",
+     "lon": 91.0382617,
+     "lat": 24.0104817
+    }
+   ]
+  },
+  "Shyamgonj": {
+   "method": "name",
+   "score": 94.1,
+   "matched_name": "Shamgonj Junction",
+   "alternatives": [
+    {
+     "score": 94.1,
+     "name": "Shamgonj Junction",
+     "source": "osm",
+     "ref": "node/1472157684",
+     "lon": 90.5793508,
+     "lat": 24.8381407
+    },
+    {
+     "score": 73.7,
+     "name": "Shambuganj railway station",
+     "source": "wikidata",
+     "ref": "Q60454804",
+     "lon": 90.4491634,
+     "lat": 24.7600882
+    }
+   ]
+  },
+  "Tantibandha": {
+   "method": "place+track (approximate)",
+   "score": 95.2,
+   "matched_name": "Tantibanda",
+   "alternatives": [
+    {
+     "score": 85.7,
+     "name": "Hatibandha",
+     "source": "osm",
+     "ref": "way/542016103",
+     "lon": 89.1384279,
+     "lat": 26.1283763
+    },
+    {
+     "score": 81.8,
+     "name": "Hathibandha",
+     "source": "osm",
+     "ref": "node/4014790615",
+     "lon": 89.1386932,
+     "lat": 26.1283348
+    },
+    {
+     "score": 80.0,
+     "name": "Gaibandha Rail station",
+     "source": "osm",
+     "ref": "node/11821778903",
+     "lon": 89.5422672,
+     "lat": 25.3327133
+    },
+    {
+     "score": 80.0,
+     "name": "Gaibandha",
+     "source": "osm",
+     "ref": "node/2544976621",
+     "lon": 89.542466,
+     "lat": 25.3323091
+    }
+   ]
+  }
+ }
+}
