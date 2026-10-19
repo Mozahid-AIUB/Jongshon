@@ -795,8 +795,19 @@ def main() -> None:
 
     report: dict = {"skipped_trains": skipped, "train_issues": {}, "stations": {}, "routing": {}, "speed": []}
 
-    interpolated = interpolate_missing(trains, matches, graph)
-    print(f"interpolated along track: {', '.join(interpolated) or 'none'}")
+    # Owner's rule: only real, citable positions are published. Positions
+    # inferred from the timetable or a village name stay in the report as
+    # hints for whoever surveys the station, never in the bundle.
+    interpolate_missing(trains, matches, graph)
+    unverified: dict[str, dict] = {}
+    for key, m in matches.items():
+        if m.lat is not None and "approximate" in m.method:
+            unverified[key] = {"hint_lon": round(m.lon, 6), "hint_lat": round(m.lat, 6),
+                               "method": m.method, "matched_name": m.matched_name}
+            m.lon = m.lat = None
+            m.method = "unverified"
+    report["unverified_positions"] = unverified
+    print(f"positions withheld until verified: {', '.join(sorted(unverified)) or 'none'}")
 
     for key, m in matches.items():
         node, d = graph.nearest(m.lon, m.lat) if m.lat is not None else (None, None)
@@ -812,17 +823,26 @@ def main() -> None:
         if t.issues:
             report["train_issues"][t.number] = t.issues
         ov = train_overrides.get(t.number, {})
+        # Route between the stops whose position is known; a stop without a
+        # verified position keeps km = null and is simply passed through.
+        positioned = [i for i, s in enumerate(t.stops) if matches[s.key].lat is not None]
+        kms: list[float | None] = [None] * len(t.stops)
         km = 0.0
-        kms: list[float | None] = [0.0]
-        routed = True
-        for a, b in zip(t.stops, t.stops[1:]):
+        routed = bool(positioned) and positioned[0] == 0 and positioned[-1] == len(t.stops) - 1
+        if not routed:
+            report["routing"].setdefault(t.number, []).append("origin or terminus has no verified position")
+        else:
+            kms[0] = 0.0
+        for i, j in zip(positioned, positioned[1:]):
+            if not routed:
+                break
+            a, b = t.stops[i], t.stops[j]
             ma, mb = matches[a.key], matches[b.key]
-            res = graph.route((ma.lon, ma.lat), (mb.lon, mb.lat)) if ma.lat is not None and mb.lat is not None else None
+            res = graph.route((ma.lon, ma.lat), (mb.lon, mb.lat))
             if res is None:
                 routed = False
                 report["routing"].setdefault(t.number, []).append(f"no path {a.key} -> {b.key}")
-                kms.append(None)
-                continue
+                break
             dist, path = res
             straight = haversine_km(ma.lon, ma.lat, mb.lon, mb.lat)
             if straight > 1 and dist / straight > 2.2:
@@ -833,7 +853,7 @@ def main() -> None:
                 report["speed"].append({"train": t.number, "from": a.key, "to": b.key,
                                         "km": round(dist, 1), "min": minutes, "kmh": round(dist / (minutes / 60))})
             km += dist
-            kms.append(round(km, 2))
+            kms[j] = round(km, 2)
             seg_key = tuple(sorted((station_code(a.key), station_code(b.key))))
             if seg_key not in segments:
                 coords = [list(graph.coord[n]) for n in path]
@@ -914,7 +934,8 @@ def main() -> None:
     conflicts = [k for k, m in matches.items() if "conflict" in m.method]
     report["summary"] = {
         "trains": len(out_trains), "skipped_trains": len(skipped), "stations": len(out_stations),
-        "matched": len(matches) - len(unmatched), "unmatched": unmatched, "geometry_conflicts": conflicts,
+        "matched": len(matches) - len(unmatched), "unmatched": unmatched, "unverified": len(unverified),
+        "geometry_conflicts": conflicts,
         "routed_trains": sum(1 for t in out_trains if t["route_id"]), "segments": len(segments),
         "speed_flags": len(report["speed"]), "seconds": round(time.time() - t0, 1),
     }

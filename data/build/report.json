@@ -410,14 +410,14 @@
    "km_to_track": 0.037
   },
   "Bidyaganj": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 90.26249438150721,
-   "lat": 24.82686447363113,
-   "km_to_track": 0.42
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Biman_Bandar": {
    "method": "name",
@@ -760,24 +760,24 @@
    "km_to_track": 0.008
   },
   "Dublia": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 89.38400225783333,
-   "lat": 23.976701689202645,
-   "km_to_track": 0.707
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Dulahazara": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 92.06770494784664,
-   "lat": 21.644798929973504,
-   "km_to_track": 0.085
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Faridpur": {
    "method": "name",
@@ -890,14 +890,14 @@
    "km_to_track": 0.014
   },
   "HARBANG": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 92.04106637142013,
-   "lat": 21.840446414720297,
-   "km_to_track": 0.015
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Hajiganj": {
    "method": "name",
@@ -970,14 +970,14 @@
    "km_to_track": 0.0
   },
   "ISLAMABAD": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 92.05388825071297,
-   "lat": 21.541239737787663,
-   "km_to_track": 0.08
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Ibrahimabad": {
    "method": "name",
@@ -1020,24 +1020,24 @@
    "km_to_track": 0.022
   },
   "Jaforshahi": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 89.87462438150197,
-   "lat": 24.834932856940675,
-   "km_to_track": 0.047
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Jagannathgonj_Bazar": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 89.82959032363138,
-   "lat": 24.64575011167809,
-   "km_to_track": 0.571
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Jamalganj": {
    "method": "name",
@@ -1340,14 +1340,14 @@
    "km_to_track": 0.023
   },
   "LOHAGARA": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": "rejected Lohagara railway station (wikidata Q131696645): 10.3x too far",
-   "lon": 92.08561052402365,
-   "lat": 22.008542722057545,
-   "km_to_track": 0.035
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Laksam": {
    "method": "name",
@@ -1940,14 +1940,14 @@
    "km_to_track": 0.178
   },
   "Raghabpur": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "source": "timetable+track",
    "ref": null,
    "matched_name": null,
-   "lon": 89.30777862133594,
-   "lat": 23.994299014390904,
-   "km_to_track": 0.177
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Rajbari": {
    "method": "name",
@@ -1980,14 +1980,14 @@
    "km_to_track": 0.032
   },
   "Ramu": {
-   "method": "place+track (approximate)",
+   "method": "unverified",
    "score": 100.0,
    "source": "osm-place",
    "ref": "town",
    "matched_name": "Ramu",
-   "lon": 92.0898255,
-   "lat": 21.4436211,
-   "km_to_track": 0.0
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Rangpur": {
    "method": "name",
@@ -2340,14 +2340,14 @@
    "km_to_track": 0.403
   },
   "Tantibandha": {
-   "method": "place+track (approximate)",
+   "method": "unverified",
    "score": 95.2,
    "source": "osm-place",
    "ref": "village",
    "matched_name": "Tantibanda",
-   "lon": 89.4346654,
-   "lat": 23.9739305,
-   "km_to_track": 0.0
+   "lon": null,
+   "lat": null,
+   "km_to_track": null
   },
   "Tarakandi": {
    "method": "name",
@@ -2455,17 +2455,98 @@
    "kmh": 179
   }
  ],
+ "unverified_positions": {
+  "Bidyaganj": {
+   "hint_lon": 90.262494,
+   "hint_lat": 24.826864,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "Dublia": {
+   "hint_lon": 89.384002,
+   "hint_lat": 23.976702,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "Dulahazara": {
+   "hint_lon": 92.067705,
+   "hint_lat": 21.644799,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "HARBANG": {
+   "hint_lon": 92.041066,
+   "hint_lat": 21.840446,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "ISLAMABAD": {
+   "hint_lon": 92.053888,
+   "hint_lat": 21.54124,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "Jaforshahi": {
+   "hint_lon": 89.874624,
+   "hint_lat": 24.834933,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "Jagannathgonj_Bazar": {
+   "hint_lon": 89.82959,
+   "hint_lat": 24.64575,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "LOHAGARA": {
+   "hint_lon": 92.085611,
+   "hint_lat": 22.008543,
+   "method": "interpolated (approximate)",
+   "matched_name": "rejected Lohagara railway station (wikidata Q131696645): 10.3x too far"
+  },
+  "Raghabpur": {
+   "hint_lon": 89.307779,
+   "hint_lat": 23.994299,
+   "method": "interpolated (approximate)",
+   "matched_name": null
+  },
+  "Ramu": {
+   "hint_lon": 92.089826,
+   "hint_lat": 21.443621,
+   "method": "place+track (approximate)",
+   "matched_name": "Ramu"
+  },
+  "Tantibandha": {
+   "hint_lon": 89.434665,
+   "hint_lat": 23.973931,
+   "method": "place+track (approximate)",
+   "matched_name": "Tantibanda"
+  }
+ },
  "summary": {
   "trains": 127,
   "skipped_trains": 7,
   "stations": 236,
-  "matched": 236,
-  "unmatched": [],
+  "matched": 225,
+  "unmatched": [
+   "Bidyaganj",
+   "Dublia",
+   "Dulahazara",
+   "HARBANG",
+   "ISLAMABAD",
+   "Jaforshahi",
+   "Jagannathgonj_Bazar",
+   "LOHAGARA",
+   "Raghabpur",
+   "Ramu",
+   "Tantibandha"
+  ],
+  "unverified": 11,
   "geometry_conflicts": [],
   "routed_trains": 127,
-  "segments": 373,
+  "segments": 358,
   "speed_flags": 4,
-  "seconds": 47.4
+  "seconds": 24.6
  },
  "review": {
   "Badarganj": {
@@ -2726,7 +2807,7 @@
    ]
   },
   "Bidyaganj": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": [
@@ -2818,19 +2899,19 @@
    ]
   },
   "Dublia": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": []
   },
   "Dulahazara": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": []
   },
   "HARBANG": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": [
@@ -2877,7 +2958,7 @@
    ]
   },
   "ISLAMABAD": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": [
@@ -2916,13 +2997,13 @@
    ]
   },
   "Jaforshahi": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": []
   },
   "Jagannathgonj_Bazar": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": [
@@ -3046,7 +3127,7 @@
    ]
   },
   "LOHAGARA": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": "rejected Lohagara railway station (wikidata Q131696645): 10.3x too far",
    "alternatives": [
@@ -3417,7 +3498,7 @@
    ]
   },
   "Raghabpur": {
-   "method": "interpolated (approximate)",
+   "method": "unverified",
    "score": 0,
    "matched_name": null,
    "alternatives": [
@@ -3456,7 +3537,7 @@
    ]
   },
   "Ramu": {
-   "method": "place+track (approximate)",
+   "method": "unverified",
    "score": 100.0,
    "matched_name": "Ramu",
    "alternatives": []
@@ -3563,7 +3644,7 @@
    ]
   },
   "Tantibandha": {
-   "method": "place+track (approximate)",
+   "method": "unverified",
    "score": 95.2,
    "matched_name": "Tantibanda",
    "alternatives": [

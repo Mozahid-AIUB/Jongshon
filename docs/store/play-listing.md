@@ -9,29 +9,28 @@ The first release is the **offline timetable app** (plan phase 1). The copy belo
 ## Short description (max 80)
 
 Release 1 (timetable):
-`Bangladesh Railway train times, stops and where your train should be now` (72)
+`Bangladesh Railway train times, stops, running days and station boards` (70)
 
 Phase 2 (live tracking):
 `Where is your train? Live location, delay and arrival time for every BD train` (77)
 
 ## Full description (max 4000), release 1
 
-**Know where your train should be, even without internet.**
+**Every Bangladesh Railway timetable in your pocket, even without internet.**
 
-Jongshon puts the full Bangladesh Railway intercity timetable in your pocket and works it out for you: which trains are running right now, where your train should be on its route, and when it should reach your station.
+Jongshon puts the full Bangladesh Railway intercity timetable in your pocket: every stop, every scheduled time, running days and off days, and which trains leave your station next.
 
 **What you can do**
 - Search any intercity train by name or number. Spelling does not matter: Suborno, Subarna and 702 all find the same train.
 - See every stop with arrival and departure times, halt minutes, running days and off days.
-- See where the timetable puts your train right now, on its real route.
 - Check a station board: which trains leave and arrive in the next hours.
 - Browse the whole rail network on a map of Bangladesh.
 - Save the trains and stations you use often.
 - Track via SMS: one tap opens your messaging app with the official TTMS request (16318) ready to send.
 - Works offline. The timetable is stored on your phone.
 
-**Honest by design**
-Every position says where it comes from. In this version positions come from the published timetable and are labelled "Scheduled". Live positions shared by passengers are coming in the next update.
+**Only real information**
+Jongshon never guesses where a train is. In this version you get Bangladesh Railway's published timetable, with every time labelled "Scheduled". Live positions shared by passengers on the train are coming in the next update, always shown with how many minutes old they are.
 
 **Coming next**
 - Live train locations shared by passengers, with delay and arrival estimates
