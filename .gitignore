@@ -30,3 +30,6 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 data/raw/osm/places.json
+
+# Claude Code local state (agent worktrees)
+.claude/
