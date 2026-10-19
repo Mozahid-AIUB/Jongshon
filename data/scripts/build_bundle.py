@@ -43,6 +43,8 @@ APP_BUNDLE = REPO / "apps" / "mobile" / "assets" / "data" / "bundle.json"
 
 WEEKDAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
 BENGALI = re.compile(r"[ঀ-৿]")
+# Bump when the bundle's shape changes in a way older apps cannot read
+BUNDLE_SCHEMA = 1
 
 # A scheduled train never averages more than this between two stops; used to
 # reject station matches that would make the timetable physically impossible.
@@ -947,6 +949,21 @@ def main() -> None:
     net = json.loads((BUILD / "network.json").read_text(encoding="utf-8"))
     net["version"] = bundle["version"]
     (BUILD / "network.json").write_text(json.dumps(net, separators=(",", ":")), encoding="utf-8")
+
+    # Manifest for over-the-air data updates: the app compares `version`,
+    # checks `schema` is one it understands, downloads the files and verifies
+    # each sha256 before swapping them in.
+    def file_entry(name: str) -> dict:
+        raw = (BUILD / name).read_bytes()
+        return {"path": name, "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}
+
+    manifest = {
+        "schema": BUNDLE_SCHEMA,
+        "version": bundle["version"],
+        "generated_at": bundle["generated_at"],
+        "files": {"bundle": file_entry("bundle.json"), "network": file_entry("network.json")},
+    }
+    (BUILD / "manifest.json").write_text(json.dumps(manifest, indent=1), encoding="utf-8")
 
     if APP_BUNDLE.parent.parent.exists():
         APP_BUNDLE.parent.mkdir(parents=True, exist_ok=True)

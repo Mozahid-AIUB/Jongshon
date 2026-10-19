@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "version": "2026.10.19-b7251a97",
+ "generated_at": "2026-10-19T23:41:24Z",
+ "files": {
+  "bundle": {
+   "path": "bundle.json",
+   "bytes": 163378,
+   "sha256": "cfe0ca1ca9859dd052708b02835751de5ed7de5ccad22df238bda418fc854baa"
+  },
+  "network": {
+   "path": "network.json",
+   "bytes": 117439,
+   "sha256": "78691c1930ea57fb93a46cb77ed02b3614c0660fc05f4b870104c2bf4df5f28b"
+  }
+ }
+}

@@ -4,7 +4,8 @@
  *
  * Usage: node data/scripts/validate-bundle.ts [path/to/bundle.json]
  */
-import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -93,6 +94,23 @@ for (const t of bundle.trains) {
   const mid = departureOf(t.stops[0]!) + duration / 2;
   const state = positionAt(t, mid).state;
   if (state !== "running" && state !== "at_station") errors.push(`${id}: estimate at mid-journey is "${state}"`);
+}
+
+// The update manifest must describe exactly the files next to it
+const manifestPath = join(dirname(path), "manifest.json");
+if (existsSync(manifestPath)) {
+  const manifest = JSON.parse(readFileSync(manifestPath, "utf8")) as {
+    version: string;
+    files: Record<string, { path: string; bytes: number; sha256: string }>;
+  };
+  if (manifest.version !== bundle.version) errors.push(`manifest version ${manifest.version} != bundle ${bundle.version}`);
+  for (const [name, file] of Object.entries(manifest.files)) {
+    const raw = readFileSync(join(dirname(path), file.path));
+    const sha = createHash("sha256").update(raw).digest("hex");
+    if (sha !== file.sha256 || raw.length !== file.bytes) errors.push(`manifest entry ${name} does not match ${file.path}`);
+  }
+} else {
+  warnings.push("no manifest.json next to the bundle");
 }
 
 const routed = bundle.trains.filter((t) => t.route_id).length;
