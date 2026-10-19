@@ -5,9 +5,11 @@ hourly auto-resume, starts here: finish what is in progress, then take the
 first unchecked task. Tick boxes and commit this file as tasks finish.
 
 Owner preferences: reply in Bangla script; app is English first; best-in-class
-quality and smooth animation; full freedom, subagents allowed (max 3 at once).
+quality and smooth animation; full freedom, subagents allowed (owner asked for
+more parallel agents; keep it to about 5 at once because of usage limits).
 
 ## Ground rules
+- **Real data only** (owner, 2026-10-20): no estimated train positions anywhere (app, web, API). Positions only from passenger GPS, station reports, official TTMS replies, always with their age. Timetable times are shown as "Scheduled". Expected times only from a real measured delay. Station coordinates only from citable sources; unknown stays null. See plan decision 4.
 - Never deploy, sign in to accounts, or push secrets. Accounts and payments are the owner's job (see "Waiting on the owner").
 - Never take other tracking apps' data, directly or indirectly. Sources: e-ticket timetable, OSM, Wikidata, official Bangladesh Railway documents, our own users.
 - Work on `feat/*`, `data/*`, `fix/*` branches; merge into `main` with `--no-ff` only when typecheck, tests and `pnpm data:validate` pass; then push.
@@ -20,6 +22,12 @@ quality and smooth animation; full freedom, subagents allowed (max 3 at once).
   On finish: read the report; feed Bangla names and aliases into `build_bundle.py` (train `name_bn`, station `name_bn`, aliases); add non-e-ticket trains as a second timetable source if a parser exists; rebuild, validate, commit on `data/names-and-coverage`, merge, push.
 - [ ] **Backend foundation** (agent, separate git worktree, branch `feat/api-foundation`): Fastify API, Postgres/PostGIS migrations, tracking engine, chat, push, Docker Compose, VPS guide.
   On finish: review the diff, run its tests, merge the branch into `main`, push. Summarise for the owner what the VPS needs.
+- [ ] **SEO website** (agent, worktree, branch `feat/web-seo`): Astro static site in `apps/web`, page per train/station/route, from `data/build`.
+  On finish: build it, grep `dist` for "undefined"/"NaN"/estimate wording, merge, push. Owner needs the domain to deploy.
+- [ ] **GPS test app** (agent, worktree, branch `feat/gps-spike`): `apps/gps-spike` standalone Expo app + `docs/spike/gps-test-protocol.md`.
+  On finish: typecheck/export, merge, push. Owner builds it with EAS and runs the train test.
+- All agents were told about the real-data-only rule on 2026-10-20 ~05:40; check their output against it.
+- [ ] **Station positions**: 11 stations withheld (Bidyaganj, Dublia, Dulahazara, Harbang, Islamabad, Jaforshahi, Jagannathganj Bazar, Lohagara (Ctg), Raghabpur, Ramu, Tantibandha). Research agent looks for citable coordinates or official km → add to `data/curation/station_overrides.json` with `source`, rebuild. Later: learn exact positions from real GPS dwell at stops.
 
 ## Next (in order)
 - [ ] ESLint (flat config) for TypeScript + React Native at the root; fix findings.

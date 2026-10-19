@@ -9,7 +9,7 @@ Live preview of the approved look: https://claude.ai/artifact/NqtZCeNhMRqRuGsUZb
 
 1. **Status reads first.** Delay, on-time, live and estimated are the most important pixels on any screen. Brand color never competes with status color.
 2. **Calm surfaces, one accent.** Mostly white and cool neutrals. Indigo marks what is interactive or "ours". Amber appears only in the logo and brand moments.
-3. **Honest data.** Every position shows its source and age (`Live · 2 min ago`, `Estimated`, `Timetable`).
+3. **Real data only** (owner's rule, 2026-10-20). A train position appears only when it comes from a real source (passenger GPS, station report, official TTMS reply) and always shows its age: `Live · 2 min ago` or `Last seen at Feni · 25 min ago`. No estimated or timetable-derived positions, ever. Published timetable times are shown and labelled `Scheduled`; `Expected` times only come from a real measured delay and say when it was measured.
 4. **Motion explains, never decorates.** Animations show cause and effect (a train moving along a line, a sheet rising from the card that opened it). 60 fps or it does not ship. Respect "reduce motion".
 5. **Thumb-first.** Primary actions sit in the lower half of the screen. Touch targets are at least 48 dp.
 
@@ -56,7 +56,7 @@ Live preview of the approved look: https://claude.ai/artifact/NqtZCeNhMRqRuGsUZb
 | `status.live` | `#188038` | `#5BC57A` | live data / on time (dot + text, tinted 13% background) |
 | `status.lateBg` / `status.lateFg` | `#F59E0B` / `#1A1C24` | same | delayed. Always text + clock icon, never color alone |
 | `status.cancelled` | `#3F4351` | `#C9CCD6` | cancelled, with strikethrough on the time |
-| `status.estimated` | `#5A5F6E` dashed 1px | `#A3A7B5` dashed | estimated position (no live data) |
+| `status.lastSeen` | `#5A5F6E` text + clock icon | `#A3A7B5` | real data that is older than 2 min: place and age, never moved forward |
 | `status.error` | `#C5221F` | `#F2877F` | form/system errors only, never train status |
 
 Rules
@@ -115,7 +115,7 @@ Patterns
 - **Press:** scale to 0.97 with `spring.snappy`, light haptic on primary actions.
 - **Lists:** items fade + rise 8 dp, staggered 30 ms, only on first load.
 - **Live dot:** soft pulse (scale 1 → 2.2, opacity 0.5 → 0) every 1.6 s.
-- **Train on progress bar:** marker glides between positions over `duration.slow`; never jumps.
+- **Train on progress bar (live data only):** marker glides between real positions over `duration.slow`; never jumps, never extrapolates.
 - **Timeline:** the current-position marker travels down the timeline; passed stops fill with `primary`.
 - **Numbers:** delay and ETA change with a vertical roll (old value up and out, new value in).
 - **Skeletons:** shimmer at 1.2 s for loading states, never spinners in lists.
@@ -130,8 +130,8 @@ Patterns
 
 | Component | Notes |
 |---|---|
-| `TrainCard` | name + number, status chips row, times row with progress track and gliding marker, next-station line |
-| `StatusChip` | variants `live`, `onTime`, `late(minutes)`, `estimated`, `timetable`, `cancelled` |
+| `TrainCard` | name + number, status chips row, scheduled times row; the progress track and marker appear only with real live data |
+| `StatusChip` | variants `live`, `lastSeen(minutes)`, `onTime`, `late(minutes)`, `scheduled`, `cancelled` |
 | `ProgressTrack` | 4 dp track, filled part in `primary`, 14 dp marker with 3 dp surface border |
 | `Timeline` | vertical stops, passed/current/upcoming states, scheduled vs expected times |
 | `SearchField` | 14 radius, leading search icon, on the header it is white (light) / `surfaceRaised` (dark) |

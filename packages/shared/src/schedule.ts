@@ -38,8 +38,12 @@ export type SchedulePosition =
 
 /**
  * Where the timetable says the train is at `minute` (minutes after service-date
- * midnight), optionally shifted by a known delay. Pure timetable estimate:
- * the live engine replaces this when real positions exist.
+ * midnight), optionally shifted by a known delay.
+ *
+ * Internal use only: deciding which journeys are scheduled to be under way,
+ * checking that a passenger's GPS fits the train they picked, etc. Never show
+ * the result to users as a train position (owner's rule, plan decision 4):
+ * positions come only from real sources.
  */
 export function positionAt(train: Train, minute: number, delayMin = 0): SchedulePosition {
   const stops = train.stops;
@@ -83,7 +87,9 @@ export interface ActiveJourney {
 
 /**
  * Journeys the timetable says are on the move (or at a stop) at `instant`.
- * Overnight trains that left yesterday are included.
+ * Overnight trains that left yesterday are included. Suitable for a
+ * "scheduled to be on the way" list; the `position` field is internal and is
+ * not a real position (see `positionAt`).
  */
 export function activeJourneys(trains: Train[], instant: Date | number = Date.now()): ActiveJourney[] {
   const now = bdClock(instant);
