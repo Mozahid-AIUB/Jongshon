@@ -1,6 +1,7 @@
 {
   "name": "jongshon",
   "private": true,
+  "type": "module",
   "description": "Jongshon: live train tracking for Bangladesh",
   "packageManager": "pnpm@10.18.0",
   "engines": {

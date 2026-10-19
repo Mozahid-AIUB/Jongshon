@@ -2,6 +2,7 @@
   "name": "@jongshon/shared",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "description": "Types, time and schedule logic shared by the app, the API and the data pipeline",
   "main": "src/index.ts",
   "types": "src/index.ts",
